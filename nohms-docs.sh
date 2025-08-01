@@ -284,50 +284,86 @@ start_dev() {
     npm start
 }
 
-# Función para update (commit + push)
+#!/bin/bash
+
+# 🔧 PARCHE PARA LA FUNCIÓN update_project en nohms-docs.sh
+# Reemplaza la función update_project existente con esta versión mejorada
+
 update_project() {
     local commit_message="${1:-Actualización de documentación}"
     
     echo -e "${BLUE}📤 Actualizando proyecto...${NC}"
     
-    # Verificar si hay cambios
-    if git diff-index --quiet HEAD --; then
-        echo -e "${YELLOW}⚠️  No hay cambios para commitear${NC}"
+    # 🔧 NUEVA LÓGICA MEJORADA DE DETECCIÓN DE CAMBIOS
+    local has_uncommitted=false
+    local has_unpushed=false
+    local changes_detected=false
+    
+    # 1. Verificar cambios sin commitear
+    if ! git diff-index --quiet HEAD --; then
+        has_uncommitted=true
+        changes_detected=true
+        echo -e "${YELLOW}📋 Cambios sin commitear detectados:${NC}"
+        git status --short
+    fi
+    
+    # 2. Verificar commits locales sin pushear
+    git fetch origin >/dev/null 2>&1
+    if git log --oneline @{u}..HEAD 2>/dev/null | grep -q .; then
+        has_unpushed=true
+        changes_detected=true
+        local unpushed_count=$(git log --oneline @{u}..HEAD | wc -l)
+        echo -e "${YELLOW}📦 $unpushed_count commits locales sin pushear:${NC}"
+        git log --oneline @{u}..HEAD
+    fi
+    
+    # 3. Si no hay cambios de ningún tipo
+    if [ "$changes_detected" = false ]; then
+        echo -e "${GREEN}✅ Todo está sincronizado - no hay cambios para procesar${NC}"
         return 0
     fi
     
-    # Mostrar cambios
-    echo -e "${YELLOW}📋 Cambios detectados:${NC}"
-    git status --short
     echo ""
     
-    # Confirmar
-    read -p "¿Continuar con el commit? (y/N): " -n 1 -r
+    # 4. Mostrar resumen de lo que se hará
+    if [ "$has_uncommitted" = true ] && [ "$has_unpushed" = true ]; then
+        echo -e "${BLUE}🔄 Se hará: commit de cambios + push de todos los commits${NC}"
+    elif [ "$has_uncommitted" = true ]; then
+        echo -e "${BLUE}🔄 Se hará: commit de cambios + push${NC}"
+    elif [ "$has_unpushed" = true ]; then
+        echo -e "${BLUE}🔄 Se hará: push de commits locales${NC}"
+    fi
+    
+    # 5. Confirmar acción
+    read -p "¿Continuar? (y/N): " -n 1 -r
     echo
     if [[ ! $REPLY =~ ^[Yy]$ ]]; then
         echo -e "${YELLOW}⏹️  Operación cancelada${NC}"
         return 0
     fi
     
-    # Configurar git con credenciales
+    # 6. Configurar git con credenciales
     if ! setup_git_auth; then
         echo -e "${RED}❌ Error configurando credenciales${NC}"
         exit 1
     fi
     
-    # Add y commit
-    git add .
-    git commit -m "$commit_message"
-    
-    if [ $? -ne 0 ]; then
-        echo -e "${YELLOW}⚠️ No hay cambios para commitear o error en commit${NC}"
-        clean_git_url
-        return 1
+    # 7. Procesar cambios sin commitear si existen
+    if [ "$has_uncommitted" = true ]; then
+        echo -e "${BLUE}📝 Commiteando cambios...${NC}"
+        git add .
+        git commit -m "$commit_message"
+        
+        if [ $? -ne 0 ]; then
+            echo -e "${RED}❌ Error en commit${NC}"
+            clean_git_url
+            return 1
+        fi
     fi
     
+    # 8. Push de todos los commits
     echo -e "${BLUE}📤 Subiendo cambios a GitHub...${NC}"
     
-    # Push
     if git push origin $BRANCH; then
         echo -e "${GREEN}✅ Proyecto actualizado exitosamente${NC}"
         echo -e "${BLUE}🌐 Los cambios estarán en Vercel en 1-2 minutos${NC}"
@@ -339,9 +375,53 @@ update_project() {
         exit 1
     fi
     
-    # Limpiar URL después del push
+    # 9. Limpiar URL después del push
     clean_git_url
 }
+
+# 🔧 FUNCIÓN ADICIONAL PARA DIAGNÓSTICO
+diagnose_repo() {
+    echo -e "${BLUE}🔍 Diagnóstico completo del repositorio${NC}"
+    echo ""
+    
+    # Git status
+    echo -e "${YELLOW}1. Estado local:${NC}"
+    git status --short
+    echo ""
+    
+    # Fetch y comparar con remoto
+    git fetch origin >/dev/null 2>&1
+    
+    # Commits ahead/behind
+    local ahead=$(git log --oneline @{u}..HEAD 2>/dev/null | wc -l)
+    local behind=$(git log --oneline HEAD..@{u} 2>/dev/null | wc -l)
+    
+    echo -e "${YELLOW}2. Sincronización con GitHub:${NC}"
+    if [ "$ahead" -gt 0 ]; then
+        echo -e "${BLUE}   📦 $ahead commits locales sin pushear${NC}"
+    fi
+    if [ "$behind" -gt 0 ]; then
+        echo -e "${YELLOW}   📥 $behind commits remotos sin hacer pull${NC}"
+    fi
+    if [ "$ahead" -eq 0 ] && [ "$behind" -eq 0 ]; then
+        echo -e "${GREEN}   ✅ Perfectamente sincronizado${NC}"
+    fi
+    echo ""
+    
+    # Build status
+    echo -e "${YELLOW}3. Estado del build:${NC}"
+    if [ -d "$BUILD_DIR" ]; then
+        echo -e "${GREEN}   ✅ Build directory existe${NC}"
+    else
+        echo -e "${YELLOW}   ⚠️  No hay build generado${NC}"
+    fi
+    echo ""
+    
+    # Vercel URL
+    echo -e "${YELLOW}4. Sitio web:${NC}"
+    echo -e "${BLUE}   🌐 https://nohms-docs-oceancryptoalama.vercel.app${NC}"
+}
+
 
 # Función para deploy completo
 deploy_project() {
