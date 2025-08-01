@@ -2,7 +2,7 @@
 
 # NOHMS.One Documentation Management Script
 # Autor: Alfredo - NOHMS Digital
-# Versión: 1.0
+# Versión: 2.0 - Con soporte .env
 
 set -e  # Exit on any error
 
@@ -18,6 +18,9 @@ REPO_URL="https://github.com/OceanCryptoAlAma/nohms-docs.git"
 BRANCH="main"
 BUILD_DIR="build"
 
+# Archivo de configuración local (ignorado por git)
+ENV_FILE=".env"
+
 # Función para mostrar ayuda
 show_help() {
     echo -e "${BLUE}🚀 NOHMS.One Documentation Manager${NC}"
@@ -26,6 +29,7 @@ show_help() {
     echo ""
     echo "Comandos disponibles:"
     echo "  setup         - Configuración inicial del repositorio"
+    echo "  credentials   - Reconfigurar credenciales GitHub"
     echo "  status        - Ver estado actual del proyecto"
     echo "  build         - Compilar documentación"
     echo "  dev           - Servidor de desarrollo"
@@ -35,13 +39,14 @@ show_help() {
     echo "  backup        - Crear backup local"
     echo "  logs          - Ver últimos commits"
     echo "  vercel        - Comandos de Vercel"
+    echo "  git           - Comandos Git útiles"
     echo "  help          - Mostrar esta ayuda"
-    echo "  git           - Comandos utiles GitHub"
     echo ""
     echo "Ejemplos:"
     echo "  ./nohms-docs.sh setup"
     echo "  ./nohms-docs.sh update \"Nuevas evaluaciones agregadas\""
     echo "  ./nohms-docs.sh deploy"
+    echo "  ./nohms-docs.sh git"
 }
 
 # Función para verificar dependencias
@@ -69,32 +74,110 @@ check_dependencies() {
     echo -e "${GREEN}✅ Todas las dependencias están instaladas${NC}"
 }
 
-# Función para configurar credenciales Git
-setup_git_credentials() {
-    echo -e "${BLUE}🔐 Configurando credenciales Git...${NC}"
+# Función para crear archivo .env
+create_env_file() {
+    echo -e "${BLUE}📝 Creando archivo de configuración...${NC}"
     
-    # Verificar si ya está configurado
-    if git config --get credential.helper > /dev/null 2>&1; then
-        echo -e "${GREEN}✅ Git credential helper ya configurado${NC}"
-        return 0
+    echo "# NOHMS.One Git Configuration" > "$ENV_FILE"
+    echo "# Este archivo contiene credenciales y no debe ser commiteado" >> "$ENV_FILE"
+    echo "GITHUB_USER=$1" >> "$ENV_FILE"
+    echo "GITHUB_TOKEN=$2" >> "$ENV_FILE"
+    echo "GITHUB_REPO=$REPO_URL" >> "$ENV_FILE"
+    
+    # Asegurar permisos restrictivos
+    chmod 600 "$ENV_FILE"
+    
+    # Agregar a .gitignore si no está
+    if ! grep -q "$ENV_FILE" .gitignore 2>/dev/null; then
+        echo "$ENV_FILE" >> .gitignore
+        echo ".nohms-config" >> .gitignore
     fi
     
-    # Configurar credential helper
-    git config --global credential.helper store
-    echo -e "${GREEN}✅ Git credential helper configurado${NC}"
-    echo -e "${YELLOW}💡 En el próximo push, se guardarán automáticamente tus credenciales${NC}"
+    echo -e "${GREEN}✅ Archivo .env creado exitosamente${NC}"
 }
 
-# Función para verificar si necesita autenticación
-check_git_auth() {
-    # Intentar un fetch silencioso para verificar auth
-    if ! git ls-remote origin > /dev/null 2>&1; then
-        echo -e "${YELLOW}🔑 Credenciales Git requeridas${NC}"
-        echo -e "${BLUE}ℹ️  Usa tu username de GitHub y tu Personal Access Token como password${NC}"
-        echo -e "${BLUE}ℹ️  Crea un token en: https://github.com/settings/tokens${NC}"
+# Función para cargar variables del .env
+load_env() {
+    if [ -f "$ENV_FILE" ]; then
+        # Cargar variables ignorando comentarios y líneas vacías
+        export $(grep -v '^#' "$ENV_FILE" | grep -v '^$' | xargs) 2>/dev/null
+        
+        # Verificar que las variables se cargaron
+        if [ -n "$GITHUB_USER" ] && [ -n "$GITHUB_TOKEN" ]; then
+            return 0
+        fi
+    fi
+    return 1
+}
+
+# Función para configurar credenciales
+setup_credentials() {
+    echo -e "${BLUE}🔐 Configuración de credenciales GitHub${NC}"
+    echo ""
+    
+    # Intentar cargar credenciales existentes
+    if load_env; then
+        echo -e "${GREEN}✅ Credenciales encontradas para: $GITHUB_USER${NC}"
+        read -p "¿Usar estas credenciales? (Y/n): " -n 1 -r
+        echo
+        if [[ ! $REPLY =~ ^[Nn]$ ]]; then
+            return 0
+        fi
+    fi
+    
+    # Solicitar nuevas credenciales
+    echo -e "${YELLOW}📝 Configura tus credenciales de GitHub:${NC}"
+    echo -e "${BLUE}💡 Username: tu usuario de GitHub (ejemplo: OceanCryptoAlAma)${NC}"
+    echo -e "${BLUE}💡 Token: Personal Access Token (no tu password)${NC}"
+    echo -e "${BLUE}🔗 Crear token: https://github.com/settings/tokens${NC}"
+    echo ""
+    
+    read -p "GitHub Username: " username
+    read -s -p "GitHub Token: " token
+    echo ""
+    
+    if [ -z "$username" ] || [ -z "$token" ]; then
+        echo -e "${RED}❌ Username y token son requeridos${NC}"
         return 1
     fi
+    
+    # Crear archivo .env
+    create_env_file "$username" "$token"
+    
+    # Cargar las nuevas variables
+    export GITHUB_USER="$username"
+    export GITHUB_TOKEN="$token"
+    export GITHUB_REPO="$REPO_URL"
+    
     return 0
+}
+
+# Función para configurar git con credenciales
+setup_git_auth() {
+    # Cargar credenciales
+    if ! load_env; then
+        echo -e "${YELLOW}🔐 Configurando credenciales por primera vez...${NC}"
+        if ! setup_credentials; then
+            return 1
+        fi
+    fi
+    
+    # Configurar URL con autenticación
+    local git_repo_auth="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/OceanCryptoAlAma/nohms-docs.git"
+    
+    # Verificar si el remote existe
+    if ! git remote get-url origin >/dev/null 2>&1; then
+        git remote add origin "$git_repo_auth"
+    else
+        git remote set-url origin "$git_repo_auth"
+    fi
+    
+    return 0
+}
+
+# Función para limpiar URL de git (sin credenciales)
+clean_git_url() {
+    git remote set-url origin "$REPO_URL" 2>/dev/null || true
 }
 
 # Función de setup inicial
@@ -107,11 +190,17 @@ setup_project() {
     if [ ! -d ".git" ]; then
         echo -e "${YELLOW}📁 Inicializando repositorio Git...${NC}"
         git init
-        git remote add origin $REPO_URL
+        git branch -M main
     fi
     
-    # Configurar credenciales Git
-    setup_git_credentials
+    # Configurar git y credenciales
+    if ! setup_git_auth; then
+        echo -e "${RED}❌ Error en configuración de Git${NC}"
+        exit 1
+    fi
+    
+    # Limpiar URL después de la configuración
+    clean_git_url
     
     # Instalar dependencias si no existen
     if [ ! -d "node_modules" ]; then
@@ -220,27 +309,38 @@ update_project() {
         return 0
     fi
     
+    # Configurar git con credenciales
+    if ! setup_git_auth; then
+        echo -e "${RED}❌ Error configurando credenciales${NC}"
+        exit 1
+    fi
+    
     # Add y commit
     git add .
     git commit -m "$commit_message"
     
-    echo -e "${BLUE}📤 Subiendo cambios a GitHub...${NC}"
-    
-    # Verificar auth antes del push
-    if ! check_git_auth; then
-        echo -e "${YELLOW}🔐 Se solicitarán credenciales en el push...${NC}"
+    if [ $? -ne 0 ]; then
+        echo -e "${YELLOW}⚠️ No hay cambios para commitear o error en commit${NC}"
+        clean_git_url
+        return 1
     fi
     
-    # Push con manejo de errores
+    echo -e "${BLUE}📤 Subiendo cambios a GitHub...${NC}"
+    
+    # Push
     if git push origin $BRANCH; then
         echo -e "${GREEN}✅ Proyecto actualizado exitosamente${NC}"
         echo -e "${BLUE}🌐 Los cambios estarán en Vercel en 1-2 minutos${NC}"
         echo -e "${BLUE}🔗 URL: https://nohms-docs-oceancryptoalama.vercel.app${NC}"
     else
-        echo -e "${RED}❌ Error en el push. Verifica tus credenciales${NC}"
-        echo -e "${YELLOW}💡 Configura un Personal Access Token: https://github.com/settings/tokens${NC}"
+        echo -e "${RED}❌ Error en el push${NC}"
+        echo -e "${YELLOW}🔄 Verifica tus credenciales en el archivo .env${NC}"
+        clean_git_url
         exit 1
     fi
+    
+    # Limpiar URL después del push
+    clean_git_url
 }
 
 # Función para deploy completo
@@ -255,7 +355,7 @@ deploy_project() {
     update_project "$commit_message"
     
     echo -e "${GREEN}✅ Deploy completado${NC}"
-    echo -e "${BLUE}🌐 Sitio web: https://nohms-docs.vercel.app${NC}"
+    echo -e "${BLUE}🌐 Sitio web: https://nohms-docs-oceancryptoalama.vercel.app${NC}"
 }
 
 # Función para limpiar
@@ -297,6 +397,7 @@ backup_project() {
         --exclude='build' \
         --exclude='.git' \
         --exclude='backups' \
+        --exclude='.env' \
         .
     
     echo -e "${GREEN}✅ Backup creado: $backup_dir/$backup_name.tar.gz${NC}"
@@ -334,11 +435,11 @@ vercel_commands() {
 git_commands() {
     echo -e "${BLUE}🔧 Comandos Git útiles para NOHMS${NC}"
     echo ""
-    echo "Configuración de credenciales:"
-    echo "   git config --global credential.helper store"
+    echo "Reconfigurar credenciales:"
+    echo "   ./nohms-docs.sh credentials"
     echo ""
-    echo "Verificar configuración:"
-    echo "   git config --list | grep credential"
+    echo "Ver configuración actual:"
+    echo "   git remote -v"
     echo ""
     echo "Ver estado del repositorio:"
     echo "   git status"
@@ -352,7 +453,17 @@ git_commands() {
     echo "Personal Access Token:"
     echo "   https://github.com/settings/tokens"
     echo ""
-    echo -e "${YELLOW}💡 Tip: Después del primer push exitoso, las credenciales se guardan automáticamente${NC}"
+    echo "Archivo de credenciales:"
+    if [ -f "$ENV_FILE" ]; then
+        echo -e "${GREEN}   ✅ $ENV_FILE (configurado)${NC}"
+        if load_env; then
+            echo -e "${GREEN}   👤 Usuario: $GITHUB_USER${NC}"
+        fi
+    else
+        echo -e "${YELLOW}   ⚠️  $ENV_FILE (no encontrado)${NC}"
+    fi
+    echo ""
+    echo -e "${YELLOW}💡 Las credenciales se guardan en .env (no se sube a GitHub)${NC}"
 }
 
 # Función principal
@@ -360,6 +471,9 @@ main() {
     case "${1:-help}" in
         "setup")
             setup_project
+            ;;
+        "credentials")
+            setup_credentials
             ;;
         "status")
             show_status
