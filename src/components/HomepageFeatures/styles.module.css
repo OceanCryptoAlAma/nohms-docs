@@ -9,3 +9,40 @@
   height: 200px;
   width: 200px;
 }
+
+.card {
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card__header h3 {
+  color: #2e8555;
+  margin-bottom: 0.5rem;
+}
+
+.card__body {
+  padding: 1rem 1.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 1rem 0;
+  }
+  
+  .featureSvg {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+}

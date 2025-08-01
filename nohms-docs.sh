@@ -36,6 +36,7 @@ show_help() {
     echo "  logs          - Ver últimos commits"
     echo "  vercel        - Comandos de Vercel"
     echo "  help          - Mostrar esta ayuda"
+    echo "  git           - Comandos utiles GitHub"
     echo ""
     echo "Ejemplos:"
     echo "  ./nohms-docs.sh setup"
@@ -68,6 +69,34 @@ check_dependencies() {
     echo -e "${GREEN}✅ Todas las dependencias están instaladas${NC}"
 }
 
+# Función para configurar credenciales Git
+setup_git_credentials() {
+    echo -e "${BLUE}🔐 Configurando credenciales Git...${NC}"
+    
+    # Verificar si ya está configurado
+    if git config --get credential.helper > /dev/null 2>&1; then
+        echo -e "${GREEN}✅ Git credential helper ya configurado${NC}"
+        return 0
+    fi
+    
+    # Configurar credential helper
+    git config --global credential.helper store
+    echo -e "${GREEN}✅ Git credential helper configurado${NC}"
+    echo -e "${YELLOW}💡 En el próximo push, se guardarán automáticamente tus credenciales${NC}"
+}
+
+# Función para verificar si necesita autenticación
+check_git_auth() {
+    # Intentar un fetch silencioso para verificar auth
+    if ! git ls-remote origin > /dev/null 2>&1; then
+        echo -e "${YELLOW}🔑 Credenciales Git requeridas${NC}"
+        echo -e "${BLUE}ℹ️  Usa tu username de GitHub y tu Personal Access Token como password${NC}"
+        echo -e "${BLUE}ℹ️  Crea un token en: https://github.com/settings/tokens${NC}"
+        return 1
+    fi
+    return 0
+}
+
 # Función de setup inicial
 setup_project() {
     echo -e "${BLUE}🛠️  Configurando proyecto NOHMS.One...${NC}"
@@ -81,15 +110,18 @@ setup_project() {
         git remote add origin $REPO_URL
     fi
     
+    # Configurar credenciales Git
+    setup_git_credentials
+    
     # Instalar dependencias si no existen
     if [ ! -d "node_modules" ]; then
         echo -e "${YELLOW}📦 Instalando dependencias npm...${NC}"
         npm install
     fi
     
-    # Verificar archivos principales
-    if [ ! -f "docusaurus.config.js" ]; then
-        echo -e "${RED}❌ docusaurus.config.js no encontrado${NC}"
+    # Verificar archivos principales (buscar tanto .js como .ts)
+    if [ ! -f "docusaurus.config.js" ] && [ ! -f "docusaurus.config.ts" ]; then
+        echo -e "${RED}❌ Archivo de configuración de Docusaurus no encontrado${NC}"
         exit 1
     fi
     
@@ -188,13 +220,27 @@ update_project() {
         return 0
     fi
     
-    # Add, commit y push
+    # Add y commit
     git add .
     git commit -m "$commit_message"
-    git push origin $BRANCH
     
-    echo -e "${GREEN}✅ Proyecto actualizado exitosamente${NC}"
-    echo -e "${BLUE}🌐 Los cambios estarán en Vercel en 1-2 minutos${NC}"
+    echo -e "${BLUE}📤 Subiendo cambios a GitHub...${NC}"
+    
+    # Verificar auth antes del push
+    if ! check_git_auth; then
+        echo -e "${YELLOW}🔐 Se solicitarán credenciales en el push...${NC}"
+    fi
+    
+    # Push con manejo de errores
+    if git push origin $BRANCH; then
+        echo -e "${GREEN}✅ Proyecto actualizado exitosamente${NC}"
+        echo -e "${BLUE}🌐 Los cambios estarán en Vercel en 1-2 minutos${NC}"
+        echo -e "${BLUE}🔗 URL: https://nohms-docs-oceancryptoalama.vercel.app${NC}"
+    else
+        echo -e "${RED}❌ Error en el push. Verifica tus credenciales${NC}"
+        echo -e "${YELLOW}💡 Configura un Personal Access Token: https://github.com/settings/tokens${NC}"
+        exit 1
+    fi
 }
 
 # Función para deploy completo
@@ -284,6 +330,31 @@ vercel_commands() {
     echo -e "${YELLOW}💡 Tip: El deploy automático funciona con git push${NC}"
 }
 
+# Función para comandos de Git útiles
+git_commands() {
+    echo -e "${BLUE}🔧 Comandos Git útiles para NOHMS${NC}"
+    echo ""
+    echo "Configuración de credenciales:"
+    echo "   git config --global credential.helper store"
+    echo ""
+    echo "Verificar configuración:"
+    echo "   git config --list | grep credential"
+    echo ""
+    echo "Ver estado del repositorio:"
+    echo "   git status"
+    echo ""
+    echo "Ver historial:"
+    echo "   git log --oneline -10"
+    echo ""
+    echo "Verificar conexión con GitHub:"
+    echo "   git ls-remote origin"
+    echo ""
+    echo "Personal Access Token:"
+    echo "   https://github.com/settings/tokens"
+    echo ""
+    echo -e "${YELLOW}💡 Tip: Después del primer push exitoso, las credenciales se guardan automáticamente${NC}"
+}
+
 # Función principal
 main() {
     case "${1:-help}" in
@@ -316,6 +387,9 @@ main() {
             ;;
         "vercel")
             vercel_commands
+            ;;
+        "git")
+            git_commands
             ;;
         "help"|*)
             show_help

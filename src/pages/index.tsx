@@ -1,4 +1,3 @@
-import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -17,11 +16,22 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.heroDescription}>
+          <p>
+            Una plataforma digital que transforma el método clínico NOHMS® en una experiencia 
+            accesible, inteligente y personalizada para evaluar y mejorar la movilidad humana.
+          </p>
+        </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Conocer NOHMS.One - 5min ⏱️
+          </Link>
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/proyecto/vision-problema">
+            Ver el Proyecto 🚀
           </Link>
         </div>
       </div>
@@ -29,12 +39,12 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): ReactNode {
+export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - Documentación`}
+      description="Plataforma digital para evaluación y mejora de la movilidad humana usando IA y el método NOHMS®">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
