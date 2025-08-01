@@ -1,30 +1,21 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
 
-const {themes} = require('prism-react-renderer');
-const lightCodeTheme = themes.github;
-const darkCodeTheme = themes.dracula;
-
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   title: 'NOHMS.One',
   tagline: 'Recuperá tu libertad de moverte',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://docs.nohms.one',
-  // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
-  // GitHub pages deployment config.
   organizationName: 'nohms-digital',
   projectName: 'nohms-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Spanish:
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],
@@ -33,28 +24,21 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/nohms-digital/nohms-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: './sidebars.ts',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/nohms-digital/nohms-docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
-      }),
+      } satisfies Preset.Options,
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  themeConfig: {
       image: 'img/nohms-social-card.jpg',
       navbar: {
         title: 'NOHMS.One',
@@ -63,6 +47,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'proyectoSidebar',
+            position: 'left',
+            label: 'Proyecto',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'metodologiaSidebar',
@@ -83,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/nohms-digital/nohms-docs',
+            href: 'https://github.com/OceanCryptoAlAma/nohms-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,8 +90,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Metodología NOHMS®',
-                to: '/docs/metodologia/introduccion',
+                label: 'Visión del Proyecto',
+                to: '/docs/proyecto/vision-problema',
               },
             ],
           },
@@ -127,18 +117,18 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nohms-digital',
+                href: 'https://github.com/OceanCryptoAlAma/nohms-docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NOHMS Digital. Construido con Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NOHMS Digital.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
-    }),
+    } satisfies Preset.ThemeConfig,
 };
 
-module.exports = config;
+export default config;

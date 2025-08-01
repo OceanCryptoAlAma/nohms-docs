@@ -1,19 +1,17 @@
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
+import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
- The sidebars can be generated from the filesystem, or explicitly defined here.
+const sidebars: SidebarsConfig = {
+  // Sidebar principal del tutorial
+  tutorialSidebar: [
+    'intro',
+  ],
 
- Create as many sidebars as you want.
- */
+  // Nueva sección del proyecto
+  proyectoSidebar: [
+    'proyecto/vision-problema',  
+  ],
 
-// @ts-check
-
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const sidebars = {
-  // By default, Docusaurus generates a sidebar from the docs folder structure
+  // Metodología NOHMS®
   metodologiaSidebar: [
     'metodologia/introduccion',
     {
@@ -33,6 +31,7 @@ const sidebars = {
     'metodologia/validacion-clinica',
   ],
 
+  // Plataforma digital
   plataformaSidebar: [
     'plataforma/vision-general',
     'plataforma/arquitectura',
@@ -50,6 +49,7 @@ const sidebars = {
     'plataforma/mvp',
   ],
 
+  // Desarrollo técnico
   desarrolloSidebar: [
     'desarrollo/setup-desarrollo',
     'desarrollo/arquitectura-tecnica',
@@ -59,4 +59,4 @@ const sidebars = {
   ],
 };
 
-module.exports = sidebars;
+export default sidebars;
