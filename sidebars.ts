@@ -1,15 +1,8 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  // Sidebar principal del tutorial
-  tutorialSidebar: [
-    'intro',
-  ],
-
-  // Nueva sección del proyecto
-  proyectoSidebar: [
-    'proyecto/vision-problema',  
-  ],
+  tutorialSidebar: ['intro'],
+  proyectoSidebar: ['proyecto/vision-problema'],
 
   // MANUAL DEL EVALUADOR EPN® - COMPLETO
   metodologiaSidebar: [
@@ -17,9 +10,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Fundamentos',
-      items: [
-        'manual-evaluador/fundamentos/index',
-      ],
+      items: ['manual-evaluador/fundamentos/index'],
     },
     {
       type: 'category',
@@ -106,7 +97,6 @@ const sidebars: SidebarsConfig = {
     },
   ],
 
-  // Plataforma digital
   plataformaSidebar: [
     'plataforma/vision-general',
     'plataforma/arquitectura',
@@ -124,7 +114,6 @@ const sidebars: SidebarsConfig = {
     'plataforma/mvp',
   ],
 
-  // Desarrollo técnico
   desarrolloSidebar: [
     'desarrollo/setup-desarrollo',
     'desarrollo/arquitectura-tecnica',
