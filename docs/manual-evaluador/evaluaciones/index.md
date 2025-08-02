@@ -1,80 +1,60 @@
----
-sidebar_position: 3
----
+# Evaluaciones EPN® - Manual del Evaluador
 
-# Evaluaciones EPN®
+Bienvenido al sistema de Evaluaciones Psicokinéticas NOHMS® (EPN®). Esta sección contiene todas las evaluaciones organizadas por categorías funcionales.
 
-El sistema de Evaluación Psicokinética NOHMS® (EPN®) comprende una serie de evaluaciones específicas para analizar de manera integral las capacidades biofuncionales y motrices del cliente.
+## 📊 Estado Actual de Migración
+**15 de 30+ evaluaciones completadas**
 
-## 🎯 Objetivo General
+## 🗂️ Categorías de Evaluaciones
 
-Las evaluaciones EPN® tienen como propósito proporcionar una visión completa y sistemática del estado funcional del cliente, abarcando:
+### [🏛️ Evaluaciones Posturales](./postura/)
+Análisis de alineación y patrones posturales
+- **2 evaluaciones disponibles**
 
-- **Análisis postural** estático y dinámico
-- **Capacidades de movilidad** y flexibilidad
-- **Fuerza funcional** y resistencia
-- **Patrones de movimiento** fundamentales
-- **Control motor** y coordinación
+### [🤸‍♂️ Evaluaciones de Movilidad](./movilidad/)
+Medición de flexibilidad y rangos de movimiento
+- **4 evaluaciones disponibles**
 
-## 📋 Evaluaciones por Categoría
+### [💪 Evaluaciones de Fuerza](./fuerza/)
+Evaluación de capacidad de fuerza y resistencia
+- **5 evaluaciones disponibles**
 
-### Evaluaciones Posturales
-- **[Evaluación #1: Análisis Postural Estático](./postura/analisis-postural-estatico.md)**
-- **[Evaluación #2: Secuencia de Enderezamiento Vertebral](./postura/secuencia-enderezamiento-vertebral.md)**
+### [⚖️ Evaluaciones Funcionales](./funcional/)
+Análisis de movimientos funcionales complejos
+- **4 evaluaciones disponibles**
 
-### Evaluaciones de Movilidad
-- **[Evaluación #3: Test de Flexibilidad Sentado](./movilidad/test-flexibilidad-sentado.md)**
+## 📋 Listado Completo de Evaluaciones
 
-### Evaluaciones de Fuerza
-- **[Evaluación #4: Test de Suspensión](./fuerza/test-suspension.md)**
-- **[Evaluación #9: Puente Frontal (Plancha)](./fuerza/puente-frontal.md)**
-- **[Evaluación #10: Test de Inclinación 90° (Escuadra)](./fuerza/test-inclinacion-escuadra.md)**
-- **[Evaluación #11: Extensión de Brazos (Boca Abajo)](./fuerza/extension-brazos-boca-abajo.md)**
-- **[Evaluación #12: Brazos en Cruz](./fuerza/brazos-en-cruz.md)**
+| # | Nombre | Categoría | Estado |
+|---|--------|-----------|---------|
+| 1 | Análisis Postural Estático | Postural | ✅ |
+| 2 | Secuencia de Enderezamiento Vertebral | Postural | ✅ |
+| 3 | Test de Flexibilidad Sentado | Movilidad | ✅ |
+| 4 | Test de Suspensión | Fuerza | ✅ |
+| 5 | Sentadilla Profunda | Funcional | ✅ |
+| 6 | Secuencia de Sentadilla Lateral | Funcional | ✅ |
+| 7 | Desplantes | Funcional | ✅ |
+| 8 | Test de Equilibrio en una Pierna | Funcional | ✅ |
+| 9 | Puente Frontal (Plancha) | Fuerza | ✅ |
+| 10 | Test de Inclinación 90° (Escuadra) | Fuerza | ✅ |
+| 11 | Extensión de Brazos (Boca Abajo) | Fuerza | ✅ |
+| 12 | Brazos en Cruz | Fuerza | ✅ |
+| 13 | Test "Número 4" | Movilidad | ✅ |
+| 14 | Estiramiento Isquiotibiales | Movilidad | ✅ |
+| 15 | Flexión de Tobillo (Pared) | Movilidad | ✅ |
 
-### Evaluaciones Funcionales
-- **[Evaluación #5: Sentadilla Profunda](./funcional/sentadilla-profunda.md)**
-- **[Evaluación #6: Secuencia de Sentadilla Lateral](./funcional/secuencia-sentadilla-lateral.md)**
-- **[Evaluación #7: Desplantes](./funcional/desplantes.md)**
-- **[Evaluación #8: Test de Equilibrio en una Pierna](./funcional/equilibrio-una-pierna.md)**
+## 🎯 Principios de las Evaluaciones EPN®
 
-## 🔄 Protocolo General de Aplicación
+Las Evaluaciones Psicokinéticas NOHMS® están diseñadas para:
 
-### **Orden Sugerido de Evaluaciones**
-1. **Evaluaciones Posturales** (#1-#2) - Establecer línea base
-2. **Evaluaciones de Movilidad** (#3) - Analizar rangos de movimiento
-3. **Evaluaciones Funcionales** (#5-#8) - Patrones de movimiento básicos
-4. **Evaluaciones de Fuerza** (#4, #9-#12) - Capacidades de fuerza específicas
+- **Evaluar de manera integral** el estado biofuncional y motriz del cliente
+- **Potenciar el autoconocimiento** del evaluado
+- **Recopilar datos precisos** para diseñar programas personalizados
+- **Empoderar al cliente** en su camino hacia el bienestar
 
-### **Consideraciones de Secuencia**
-- **Progresión lógica:** Desde estático hacia dinámico
-- **Fatiga acumulativa:** Considerar orden para minimizar interferencia
-- **Adaptaciones individuales:** Modificar según limitaciones identificadas
-- **Descansos apropiados:** Permitir recuperación entre evaluaciones demandantes
+## 📝 Protocolo de Evaluación
 
-## ⚠️ Principios Generales de Seguridad
-
-- **Evaluación previa:** Verificar ausencia de contraindicaciones
-- **Consentimiento informado:** Asegurar comprensión del proceso
-- **Supervisión constante:** Monitoreo continuo durante evaluaciones
-- **Adaptación individual:** Modificar según capacidades y limitaciones
-- **Detención inmediata:** Ante dolor, molestias o pérdida de control
-- **Documentación completa:** Registro detallado de hallazgos y limitaciones
-
-## 📊 Interpretación Integral
-
-### **Análisis Individual**
-Cada evaluación proporciona información específica sobre capacidades particulares.
-
-### **Análisis Correlacional**
-Los hallazgos deben interpretarse en conjunto para obtener una comprensión integral del funcionamiento del cliente.
-
-### **Identificación de Patrones**
-- **Fortalezas:** Capacidades destacadas del cliente
-- **Limitaciones:** Áreas que requieren atención específica
-- **Asimetrías:** Diferencias bilaterales significativas
-- **Compensaciones:** Estrategias adaptativas identificadas
-
----
-
-*El sistema EPN® proporciona una evaluación integral que sirve como base para el diseño de programas individualizados dentro del Sistema NOHMS®.*
+1. **Preparación:** Ambiente adecuado y explicación al cliente
+2. **Ejecución:** Seguir protocolos específicos de cada evaluación  
+3. **Registro:** Documentación fotográfica y observaciones
+4. **Análisis:** Interpretación de resultados según criterios establecidos

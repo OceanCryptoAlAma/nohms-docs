@@ -1,44 +1,24 @@
----
-sidebar_position: 2
----
-
 # Evaluaciones de Movilidad
 
-Evaluaciones específicas para analizar rangos de movimiento, flexibilidad y movilidad articular en el sistema EPN®.
+Esta sección incluye todas las evaluaciones destinadas a medir la flexibilidad, movilidad articular y capacidad de movimiento en diferentes rangos.
 
-## 🎯 Objetivo de las Evaluaciones de Movilidad
+## Evaluaciones Incluidas
 
-Las evaluaciones de movilidad tienen como propósito:
+### [📏 Test de Flexibilidad Sentado](./test-flexibilidad-sentado)
+**Evaluación #3** - Flexibilidad de columna vertebral e isquiotibiales
 
-- **Analizar rangos de movimiento** articular funcional
-- **Evaluar flexibilidad** de cadenas musculares específicas
-- **Identificar limitaciones** que puedan afectar el movimiento
-- **Documentar asimetrías** y compensaciones
-- **Establecer líneas base** para programas de mejora
+### [🔄 Test "Número 4"](./test-numero-4)  
+**Evaluación #13** - Flexibilidad de cadera y rotación externa
 
-## 📋 Evaluaciones Incluidas
+### [🦵 Estiramiento Isquiotibiales](./estiramiento-isquiotibiales)
+**Evaluación #14** - Flexibilidad de músculos posteriores del muslo
 
-### [Evaluación #3: Test de Flexibilidad Sentado](./test-flexibilidad-sentado.md)
-- **Objetivo:** Evaluar flexibilidad de cadena posterior
-- **Duración:** 3-5 minutos
-- **Nivel:** Básico - Fundamental
+### [🦶 Flexión de Tobillo (Pared)](./flexion-tobillo-pared)
+**Evaluación #15** - Flexión dorsal del tobillo y flexibilidad de pantorrillas
 
-## 🔄 Protocolo de Aplicación
+## Características de las Evaluaciones de Movilidad
 
-1. **Orden sugerido:** Aplicar después de evaluaciones posturales
-2. **Preparación:** Verificar ausencia de contraindicaciones
-3. **Ejecución:** Seguir protocolos específicos de cada evaluación
-4. **Documentación:** Registrar hallazgos y limitaciones
-5. **Integración:** Correlacionar con otras evaluaciones EPN®
-
-## ⚠️ Consideraciones Generales
-
-- **Respetar rangos seguros** en todo momento
-- **Detener ante dolor** o molestias significativas
-- **Adaptar según limitaciones** individuales
-- **Supervisar signos de alerta** durante la ejecución
-- **Documentar modificaciones** realizadas
-
----
-
-*Las evaluaciones de movilidad son fundamentales para comprender las capacidades de movimiento del cliente y diseñar intervenciones apropiadas dentro del Sistema NOHMS®.*
+- **Objetivo:** Medir rangos de movimiento y flexibilidad
+- **Metodología:** Posiciones estáticas y estiramientos controlados  
+- **Seguridad:** Movimientos progresivos respetando límites individuales
+- **Análisis:** Comparación bilateral y detección de asimetrías
