@@ -19,6 +19,12 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 ### [🔄 Rotación de Cadera Específica](./rotacion-cadera-especifica)
 **Evaluación #24** - Movilidad rotacional de cadera en posición funcional
 
+### [🔄 Movilidad Escapular Dinámica](./movilidad-escapular-dinamica)
+**Evaluación #26** - Movilidad y coordinación escapular
+
+### [🤸 Test de Equilibrio Dinámico Avanzado](./equilibrio-dinamico-avanzado)
+**Evaluación #27** - Control postural en condiciones dinámicas desafiantes
+
 ## Características de las Evaluaciones Funcionales
 
 - **Objetivo:** Analizar patrones de movimiento integrados
@@ -30,5 +36,5 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 
 - **Patrones de Sentadilla:** Evaluaciones #5, #6
 - **Patrones de Marcha:** Evaluación #7
-- **Control Postural:** Evaluación #8
-- **Movilidad Articular Funcional:** Evaluación #24
+- **Control Postural:** Evaluaciones #8, #27
+- **Movilidad Articular Funcional:** Evaluaciones #24, #26

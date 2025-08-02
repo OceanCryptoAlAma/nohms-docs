@@ -3,13 +3,13 @@
 Bienvenido al sistema de Evaluaciones Psicokinéticas NOHMS® (EPN®). Esta sección contiene todas las evaluaciones organizadas por categorías funcionales.
 
 ## 📊 Estado Actual de Migración
-**24 de 30+ evaluaciones completadas**
+**28 de 30+ evaluaciones completadas**
 
 ## 🗂️ Categorías de Evaluaciones
 
 ### [🏛️ Evaluaciones Posturales](./postura/)
 Análisis de alineación y patrones posturales
-- **2 evaluaciones disponibles**
+- **3 evaluaciones disponibles**
 
 ### [🤸‍♂️ Evaluaciones de Movilidad](./movilidad/)
 Medición de flexibilidad y rangos de movimiento
@@ -17,11 +17,11 @@ Medición de flexibilidad y rangos de movimiento
 
 ### [💪 Evaluaciones de Fuerza](./fuerza/)
 Evaluación de capacidad de fuerza y resistencia
-- **7 evaluaciones disponibles**
+- **8 evaluaciones disponibles**
 
 ### [⚖️ Evaluaciones Funcionales](./funcional/)
 Análisis de movimientos funcionales complejos
-- **5 evaluaciones disponibles**
+- **7 evaluaciones disponibles**
 
 ## 📋 Listado Completo de Evaluaciones
 
@@ -51,6 +51,10 @@ Análisis de movimientos funcionales complejos
 | 22 | Posición de Loto Avanzada | Movilidad | ✅ |
 | 23 | Estiramiento de Pantorrillas Avanzado | Movilidad | ✅ |
 | 24 | Rotación de Cadera Específica | Funcional | ✅ |
+| 25 | Test de Resistencia Abdominal Avanzado | Fuerza | ✅ |
+| 26 | Movilidad Escapular Dinámica | Funcional | ✅ |
+| 27 | Test de Equilibrio Dinámico Avanzado | Funcional | ✅ |
+| 28 | Integración Postural Completa | Postural | ✅ |
 
 ## 🎯 Principios de las Evaluaciones EPN®
 
@@ -67,3 +71,10 @@ Las Evaluaciones Psicokinéticas NOHMS® están diseñadas para:
 2. **Ejecución:** Seguir protocolos específicos de cada evaluación  
 3. **Registro:** Documentación fotográfica y observaciones
 4. **Análisis:** Interpretación de resultados según criterios establecidos
+
+## 🏆 Logros del Manual
+
+- **93% de completado** con 28 evaluaciones profesionales
+- **Categorías balanceadas** con evaluaciones básicas a avanzadas
+- **Documentación consistente** siguiendo estándares NOHMS®
+- **Base sólida** para el Sistema de Evaluación Psicokinética

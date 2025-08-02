@@ -25,6 +25,9 @@ Esta sección incluye todas las evaluaciones destinadas a medir la capacidad de 
 ### [🕊️ Brazos en Cruz (Boca Abajo)](./brazos-cruz-boca-abajo)
 **Evaluación #21** - Fuerza de músculos posteriores contra gravedad
 
+### [⚡ Test de Resistencia Abdominal Avanzado](./test-resistencia-abdominal-avanzado)
+**Evaluación #25** - Resistencia prolongada de músculos abdominales
+
 ## Características de las Evaluaciones de Fuerza
 
 - **Objetivo:** Medir capacidad de fuerza y resistencia muscular
@@ -35,5 +38,5 @@ Esta sección incluye todas las evaluaciones destinadas a medir la capacidad de 
 ## Categorías de Fuerza Evaluadas
 
 - **Fuerza de Tren Superior:** Evaluaciones #4, #11, #12, #20, #21
-- **Fuerza de Core:** Evaluaciones #9, #10
+- **Fuerza de Core:** Evaluaciones #9, #10, #25
 - **Fuerza Funcional:** Todas las evaluaciones integradas
