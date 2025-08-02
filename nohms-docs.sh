@@ -370,7 +370,7 @@ update_project() {
     if git push origin $BRANCH; then
         echo -e "${GREEN}✅ Proyecto actualizado exitosamente${NC}"
         echo -e "${BLUE}🌐 Los cambios estarán en Vercel en 1-2 minutos${NC}"
-        echo -e "${BLUE}🔗 URL: https://nohms-docs-oceancryptoalama.vercel.app${NC}"
+        echo -e "${BLUE}🔗 URL: https://nohms-docs.vercel.app${NC}"
     else
         echo -e "${RED}❌ Error en el push${NC}"
         echo -e "${YELLOW}🔄 Verifica tus credenciales en el archivo .env${NC}"
@@ -422,7 +422,7 @@ diagnose_repo() {
     
     # Vercel URL
     echo -e "${YELLOW}4. Sitio web:${NC}"
-    echo -e "${BLUE}   🌐 https://nohms-docs-oceancryptoalama.vercel.app${NC}"
+    echo -e "${BLUE}   🌐 https://nohms-docs.vercel.app${NC}"
 }
 
 
@@ -438,7 +438,7 @@ deploy_project() {
     update_project "$commit_message"
     
     echo -e "${GREEN}✅ Deploy completado${NC}"
-    echo -e "${BLUE}🌐 Sitio web: https://nohms-docs-oceancryptoalama.vercel.app${NC}"
+    echo -e "${BLUE}🌐 Sitio web: https://nohms-docs.vercel.app${NC}"
 }
 
 # Función para limpiar
