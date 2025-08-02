@@ -97,10 +97,13 @@ create_env_file() {
 }
 
 # Función para cargar variables del .env
+# Función para cargar variables del .env (CORREGIDA)
 load_env() {
     if [ -f "$ENV_FILE" ]; then
-        # Cargar variables ignorando comentarios y líneas vacías
-        export $(grep -v '^#' "$ENV_FILE" | grep -v '^$' | xargs) 2>/dev/null
+        # Método más robusto: usar source con set -a
+        set -a
+        source "$ENV_FILE"
+        set +a
         
         # Verificar que las variables se cargaron
         if [ -n "$GITHUB_USER" ] && [ -n "$GITHUB_TOKEN" ]; then
