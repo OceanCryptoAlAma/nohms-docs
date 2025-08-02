@@ -7,11 +7,11 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 ### [🏋️‍♀️ Sentadilla Profunda](./sentadilla-profunda)
 **Evaluación #5** - Movilidad y estabilidad en sentadilla completa
 
-### [🔄 Secuencia de Sentadilla Lateral](./secuencia-sentadilla-lateral)
-**Evaluación #6** - Movimiento dinámico y control lateral
+### [🔄 Secuencia de Ascenso de Sentadilla](./secuencia-ascenso-sentadilla)
+**Evaluación #6** - Control motor y coordinación durante el ascenso
 
-### [🚶‍♂️ Desplantes](./desplantes)
-**Evaluación #7** - Estabilidad y fuerza en patrón de marcha
+### [🏃 Desplante - Salida de Carrera](./desplante-salida-carrera)
+**Evaluación #7** - Estabilidad y fuerza en patrón de marcha deportivo
 
 ### [⚖️ Test de Equilibrio en una Pierna](./equilibrio-una-pierna)
 **Evaluación #8** - Control postural y estabilidad unipodal
@@ -31,6 +31,9 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 ### [🌟 Evaluación Integral EPN® - Síntesis Final](./evaluacion-integral-epn-sintesis)
 **Evaluación #30** - Síntesis completa y perfil psicokinético integral
 
+### [↔️ Desplante Lateral](./desplante-lateral)
+**Evaluación #31** - Movilidad y estabilidad en el plano frontal
+
 ## Características de las Evaluaciones Funcionales
 
 - **Objetivo:** Analizar patrones de movimiento integrados
@@ -41,7 +44,7 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 ## Categorías Funcionales Evaluadas
 
 - **Patrones de Sentadilla:** Evaluaciones #5, #6
-- **Patrones de Marcha:** Evaluación #7
+- **Patrones de Desplante:** Evaluaciones #7, #31
 - **Control Postural:** Evaluaciones #8, #27
 - **Movilidad Articular Funcional:** Evaluaciones #24, #26
 - **Coordinación Avanzada:** Evaluación #29
