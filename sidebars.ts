@@ -11,24 +11,47 @@ const sidebars: SidebarsConfig = {
     'proyecto/vision-problema',  
   ],
 
-  // Metodología NOHMS®
+  // MANUAL DEL EVALUADOR EPN® - REAL
   metodologiaSidebar: [
-    'metodologia/introduccion',
+    'manual-evaluador/index',
     {
       type: 'category',
-      label: 'Evaluaciones NOHMS®',
+      label: 'Fundamentos',
       items: [
-        'metodologia/evaluaciones/postura-estatica',
-        'metodologia/evaluaciones/flexion-extension', 
-        'metodologia/evaluaciones/movilidad-caderas',
-        'metodologia/evaluaciones/columna-vertebral',
-        'metodologia/evaluaciones/hombros-escapulas',
-        'metodologia/evaluaciones/tobillos-pies',
-        'metodologia/evaluaciones/coordinacion-motora',
+        'manual-evaluador/fundamentos/index',
       ],
     },
-    'metodologia/protocolos',
-    'metodologia/validacion-clinica',
+    {
+      type: 'category',
+      label: 'Guía Fotográfica',
+      items: [
+        'manual-evaluador/guia-fotografica/index',
+        'manual-evaluador/guia-fotografica/evaluaciones-posturales',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Protocolo de Entrevista',
+      items: [
+        'manual-evaluador/protocolo-entrevista/index',
+        'manual-evaluador/protocolo-entrevista/cuestionario-epn',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Evaluaciones',
+      items: [
+        'manual-evaluador/evaluaciones/index',
+        {
+          type: 'category',
+          label: 'Evaluaciones Posturales',
+          items: [
+            'manual-evaluador/evaluaciones/postura/index',
+            'manual-evaluador/evaluaciones/postura/analisis-postural-estatico',
+          ],
+        },
+      ],
+    },
   ],
 
   // Plataforma digital
