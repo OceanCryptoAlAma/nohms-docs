@@ -28,13 +28,29 @@ Las evaluaciones de fuerza tienen como propósito:
 - **Duración:** 5-8 minutos
 - **Nivel:** Intermedio - Requiere fuerza del core
 
+### [Evaluación #10: Test de Inclinación 90° (Escuadra)](./test-inclinacion-escuadra.md)
+- **Objetivo:** Evaluar fuerza isométrica y flexibilidad integrada
+- **Duración:** 8-12 minutos
+- **Nivel:** Intermedio a Avanzado
+
+### [Evaluación #11: Extensión de Brazos (Boca Abajo)](./extension-brazos-boca-abajo.md)
+- **Objetivo:** Evaluar fuerza y movilidad de hombros
+- **Duración:** 6-10 minutos
+- **Nivel:** Intermedio
+
+### [Evaluación #12: Brazos en Cruz](./brazos-en-cruz.md)
+- **Objetivo:** Evaluar resistencia escapular en abducción horizontal
+- **Duración:** 5-8 minutos
+- **Nivel:** Intermedio a Avanzado
+
 ## 🔄 Protocolo de Aplicación
 
 1. **Verificación previa:** Confirmar ausencia de lesiones
 2. **Calentamiento:** Movilización apropiada antes de la evaluación
-3. **Seguridad:** Supervisión estrecha durante ejecución
-4. **Adaptaciones:** Modificar según capacidades individuales
-5. **Documentación:** Registrar capacidades y limitaciones
+3. **Progresión:** Desde evaluaciones básicas hacia avanzadas
+4. **Seguridad:** Supervisión estrecha durante ejecución
+5. **Adaptaciones:** Modificar según capacidades individuales
+6. **Documentación:** Registrar capacidades y limitaciones
 
 ## ⚠️ Consideraciones Generales
 
@@ -42,6 +58,7 @@ Las evaluaciones de fuerza tienen como propósito:
 - **Supervisión constante** durante evaluaciones de fuerza
 - **Adaptaciones necesarias** según población
 - **Registro detallado** de capacidades y limitaciones
+- **Progresión apropiada** en dificultad de evaluaciones
 
 ---
 
