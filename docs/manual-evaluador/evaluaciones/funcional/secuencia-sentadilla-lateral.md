@@ -211,7 +211,7 @@ sidebar_position: 6
 #### **Tiempo de Ejecución (Referencia)**
 - **Control óptimo:** 15-25 segundos para secuencia completa
 - **Control adecuado:** 10-15 segundos o 25-35 segundos
-- **Control limitado:** < 10 segundos (muy rápido) o > 35 segundos (fatiga)
+- **Control limitado:** &lt; 10 segundos (muy rápido) o &gt; 35 segundos (fatiga)
 - **Sin control:** Incapaz de controlar velocidad
 
 #### **Consistencia del Ritmo**

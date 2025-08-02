@@ -202,10 +202,10 @@ sidebar_position: 7
 ### **Clasificación de Capacidad de Desplante**
 
 #### **Desplantes Frontales**
-- **Excelente:** Posición estable >30 segundos, profundidad completa bilateral
+- **Excelente:** Posición estable &gt;30 segundos, profundidad completa bilateral
 - **Bueno:** Posición estable 15-30 segundos, buena profundidad bilateral
 - **Regular:** Posición estable 5-15 segundos, profundidad moderada
-- **Limitado:** Posición inestable <5 segundos, profundidad reducida
+- **Limitado:** Posición inestable &lt;5 segundos, profundidad reducida
 - **No logra:** Incapaz de mantener posición de desplante
 
 #### **Desplantes Laterales**

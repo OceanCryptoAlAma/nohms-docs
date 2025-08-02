@@ -165,17 +165,17 @@ sidebar_position: 11
 ### **Clasificación por Rango de Movimiento**
 
 #### **Extensión Simple de Brazos**
-- **Excelente:** Elevación >45° desde horizontal, sostén 8+ segundos
+- **Excelente:** Elevación &gt;45° desde horizontal, sostén 8+ segundos
 - **Bueno:** Elevación 30-45° desde horizontal, sostén 6-8 segundos
 - **Regular:** Elevación 15-30° desde horizontal, sostén 4-6 segundos
-- **Limitado:** Elevación <15° desde horizontal, sostén 2-4 segundos
+- **Limitado:** Elevación &lt;15° desde horizontal, sostén 2-4 segundos
 - **Muy limitado:** Elevación mínima, incapaz de sostener
 
 #### **Flexión de Hombros**
 - **Excelente:** Brazos alcanzan vertical o más, sostén 8+ segundos
 - **Bueno:** Brazos alcanzan 60-90° desde horizontal, sostén 6-8 segundos
 - **Regular:** Brazos alcanzan 30-60° desde horizontal, sostén 4-6 segundos
-- **Limitado:** Brazos alcanzan <30° desde horizontal, sostén 2-4 segundos
+- **Limitado:** Brazos alcanzan &lt;30° desde horizontal, sostén 2-4 segundos
 - **Muy limitado:** Movimiento mínimo, incapaz de sostener
 
 ### **Análisis Cualitativo del Control Motor**

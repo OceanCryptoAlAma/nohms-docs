@@ -163,19 +163,19 @@ sidebar_position: 9
 ### **Clasificación por Tiempo de Sostén**
 
 #### **Hombres (Referencia General)**
-- **Excelente:** > 90 segundos
+- **Excelente:** &gt; 90 segundos
 - **Bueno:** 60-90 segundos
 - **Regular:** 30-60 segundos
 - **Limitado:** 10-30 segundos
-- **Muy limitado:** < 10 segundos
+- **Muy limitado:** &lt; 10 segundos
 - **No logra:** Incapaz de mantener posición correcta
 
 #### **Mujeres (Referencia General)**
-- **Excelente:** > 60 segundos
+- **Excelente:** &gt; 60 segundos
 - **Bueno:** 40-60 segundos
 - **Regular:** 20-40 segundos
 - **Limitado:** 8-20 segundos
-- **Muy limitado:** < 8 segundos
+- **Muy limitado:** &lt; 8 segundos
 - **No logra:** Incapaz de mantener posición correcta
 
 ### **Análisis Cualitativo de la Ejecución**

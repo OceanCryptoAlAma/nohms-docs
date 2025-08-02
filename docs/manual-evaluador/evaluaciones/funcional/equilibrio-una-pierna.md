@@ -187,25 +187,25 @@ sidebar_position: 8
 ### **Clasificación por Tiempo de Equilibrio Estático**
 
 #### **Adultos Jóvenes (20-40 años)**
-- **Excelente:** > 45 segundos bilateral
+- **Excelente:** &gt; 45 segundos bilateral
 - **Bueno:** 30-45 segundos bilateral
 - **Regular:** 15-30 segundos bilateral
 - **Limitado:** 5-15 segundos bilateral
-- **Muy limitado:** < 5 segundos
+- **Muy limitado:** &lt; 5 segundos
 
 #### **Adultos Medios (40-65 años)**
-- **Excelente:** > 30 segundos bilateral
+- **Excelente:** &gt; 30 segundos bilateral
 - **Bueno:** 20-30 segundos bilateral
 - **Regular:** 10-20 segundos bilateral
 - **Limitado:** 3-10 segundos bilateral
-- **Muy limitado:** < 3 segundos
+- **Muy limitado:** &lt; 3 segundos
 
-#### **Adultos Mayores (>65 años)**
-- **Excelente:** > 15 segundos bilateral
+#### **Adultos Mayores (&gt;65 años)**
+- **Excelente:** &gt; 15 segundos bilateral
 - **Bueno:** 10-15 segundos bilateral
 - **Regular:** 5-10 segundos bilateral
 - **Limitado:** 2-5 segundos bilateral
-- **Muy limitado:** < 2 segundos
+- **Muy limitado:** &lt; 2 segundos
 
 ### **Análisis de Control Motor Dinámico**
 

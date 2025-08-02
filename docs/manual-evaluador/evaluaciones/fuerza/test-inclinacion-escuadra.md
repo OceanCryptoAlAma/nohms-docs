@@ -180,21 +180,21 @@ sidebar_position: 10
 ### **Clasificación por Capacidad de Ejecución**
 
 #### **Variante 1: Manos al Pecho**
-- **Excelente:** Mantiene posición >45 segundos con forma perfecta
+- **Excelente:** Mantiene posición &gt;45 segundos con forma perfecta
 - **Bueno:** Mantiene posición 30-45 segundos con forma adecuada
 - **Regular:** Mantiene posición 15-30 segundos con compensaciones menores
 - **Limitado:** Mantiene posición 5-15 segundos con compensaciones evidentes
 - **No logra:** Incapaz de mantener posición o forma correcta
 
 #### **Variante 2: Brazos Adelante y Arriba**
-- **Excelente:** Transición exitosa con >30 segundos de sostén
+- **Excelente:** Transición exitosa con &gt;30 segundos de sostén
 - **Bueno:** Transición exitosa con 15-30 segundos de sostén
 - **Regular:** Transición exitosa con 5-15 segundos de sostén
-- **Limitado:** Logra posición pero <5 segundos de sostén
+- **Limitado:** Logra posición pero &lt;5 segundos de sostén
 - **No logra:** Incapaz de mantener posición con brazos extendidos
 
 #### **Variante 3: Brazos en Cruz**
-- **Excelente:** Transición exitosa con >20 segundos de sostén
+- **Excelente:** Transición exitosa con &gt;20 segundos de sostén
 - **Bueno:** Transición exitosa con 10-20 segundos de sostén
 - **Regular:** Transición exitosa con 3-10 segundos de sostén
 - **Limitado:** Logra posición momentáneamente

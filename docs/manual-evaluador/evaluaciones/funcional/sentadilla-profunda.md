@@ -206,7 +206,7 @@ PROFUNDIDAD ALCANZADA:
 □ Profunda (muslos paralelos al suelo): Sí / No
 □ Moderada (90-120° flexión rodilla): Sí / No
 □ Limitada (60-90° flexión rodilla): Sí / No
-□ Muy limitada (<60° flexión): Sí / No
+□ Muy limitada (&lt;60° flexión): Sí / No
 
 MANTENIMIENTO DE TALONES:
 □ Talones en suelo - Espalda recta: Completo / Parcial / No
@@ -217,7 +217,7 @@ MANTENIMIENTO DE TALONES:
 CONTROL Y ESTABILIDAD:
 □ Descenso controlado: Sí / No
 □ Estabilidad en posición final: Buena / Regular / Deficiente
-□ Capacidad de mantener posición: >30seg / 10-30seg / <10seg
+□ Capacidad de mantener posición: &gt;30seg / 10-30seg / &lt;10seg
 □ Equilibrio durante ejecución: Estable / Inestable
 
 ESTRATEGIAS POSTURALES:

@@ -162,11 +162,11 @@ sidebar_position: 12
 ### **Clasificación por Tiempo de Sostén**
 
 #### **Población General (Adultos)**
-- **Excelente:** > 60 segundos con forma perfecta
+- **Excelente:** &gt; 60 segundos con forma perfecta
 - **Bueno:** 30-60 segundos con forma adecuada
 - **Regular:** 15-30 segundos con compensaciones menores
 - **Limitado:** 5-15 segundos con compensaciones evidentes
-- **Muy limitado:** < 5 segundos o incapaz de mantener posición
+- **Muy limitado:** &lt; 5 segundos o incapaz de mantener posición
 
 #### **Consideraciones por Edad y Género**
 - **Adultos jóvenes:** Expectativas más altas en tiempo y calidad
