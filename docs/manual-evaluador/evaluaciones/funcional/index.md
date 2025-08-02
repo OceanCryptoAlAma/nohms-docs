@@ -25,6 +25,12 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 ### [🤸 Test de Equilibrio Dinámico Avanzado](./equilibrio-dinamico-avanzado)
 **Evaluación #27** - Control postural en condiciones dinámicas desafiantes
 
+### [🧠 Test de Coordinación Neuromuscular Avanzado](./coordinacion-neuromuscular-avanzada)
+**Evaluación #29** - Coordinación intermuscular y integración neuromotora compleja
+
+### [🌟 Evaluación Integral EPN® - Síntesis Final](./evaluacion-integral-epn-sintesis)
+**Evaluación #30** - Síntesis completa y perfil psicokinético integral
+
 ## Características de las Evaluaciones Funcionales
 
 - **Objetivo:** Analizar patrones de movimiento integrados
@@ -38,3 +44,5 @@ Esta sección incluye las evaluaciones destinadas a analizar movimientos funcion
 - **Patrones de Marcha:** Evaluación #7
 - **Control Postural:** Evaluaciones #8, #27
 - **Movilidad Articular Funcional:** Evaluaciones #24, #26
+- **Coordinación Avanzada:** Evaluación #29
+- **Integración Global:** Evaluación #30
