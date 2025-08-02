@@ -18,15 +18,25 @@ Las evaluaciones funcionales tienen como propósito:
 
 ## 📋 Evaluaciones Incluidas
 
-### [Sentadilla Profunda](./sentadilla-profunda.md)
+### [Evaluación #5: Sentadilla Profunda](./sentadilla-profunda.md)
 - **Objetivo:** Evaluar movilidad tri-articular y patrones básicos
 - **Duración:** 5-7 minutos
 - **Nivel:** Básico - Fundamental
 
-### [Secuencia de Sentadilla Lateral](./secuencia-sentadilla-lateral.md)
+### [Evaluación #6: Secuencia de Sentadilla Lateral](./secuencia-sentadilla-lateral.md)
 - **Objetivo:** Evaluar control motor dinámico y coordinación
 - **Duración:** 8-12 minutos
 - **Nivel:** Intermedio - Requiere coordinación
+
+### [Evaluación #7: Desplantes](./desplantes.md)
+- **Objetivo:** Evaluar estabilidad unilateral y equilibrio dinámico
+- **Duración:** 10-15 minutos
+- **Nivel:** Intermedio - Requiere equilibrio y coordinación
+
+### [Evaluación #8: Test de Equilibrio en una Pierna](./equilibrio-una-pierna.md)
+- **Objetivo:** Evaluar equilibrio unilateral y control postural
+- **Duración:** 8-12 minutos
+- **Nivel:** Básico a Intermedio
 
 ## 🔄 Protocolo de Aplicación
 

@@ -18,10 +18,15 @@ Las evaluaciones de fuerza tienen como propósito:
 
 ## 📋 Evaluaciones Incluidas
 
-### [Test de Suspensión](./test-suspension.md)
+### [Evaluación #4: Test de Suspensión](./test-suspension.md)
 - **Objetivo:** Evaluar fuerza de agarre y estabilidad escapular
 - **Duración:** 5-8 minutos
 - **Nivel:** Intermedio - Requiere fuerza básica
+
+### [Evaluación #9: Puente Frontal (Plancha)](./puente-frontal.md)
+- **Objetivo:** Evaluar fuerza del core y estabilidad central
+- **Duración:** 5-8 minutos
+- **Nivel:** Intermedio - Requiere fuerza del core
 
 ## 🔄 Protocolo de Aplicación
 

@@ -2,60 +2,46 @@
 sidebar_position: 1
 ---
 
-# Evaluaciones Posturales EPN®
+# Evaluaciones Posturales
 
-Las evaluaciones posturales constituyen el **fundamento** del análisis EPN®. Estas evaluaciones proporcionan información crucial sobre la alineación corporal, patrones compensatorios y la base funcional del cliente.
+Evaluaciones específicas para analizar la postura estática y dinámica, así como patrones de movimiento espinal.
 
-## 🎯 Objetivos de las Evaluaciones Posturales
+## 🎯 Objetivo de las Evaluaciones Posturales
 
-### **Principales**
-- Documentar la postura natural en los tres planos anatómicos
-- Identificar desviaciones y asimetrías significativas
-- Establecer línea base para comparaciones futuras
-- Detectar patrones que puedan afectar otras evaluaciones
+Las evaluaciones posturales tienen como propósito:
 
-### **Específicos**
-- Análisis de alineación segmentaria
-- Evaluación de simetría bilateral
-- Identificación de compensaciones posturales
-- Detección de limitaciones funcionales
+- **Analizar alineación** corporal estática y dinámica
+- **Identificar desequilibrios** posturales y compensaciones
+- **Evaluar movilidad espinal** y coordinación segmentaria
+- **Documentar patrones** de movimiento vertebral
+- **Establecer líneas base** para intervenciones posturales
 
 ## 📋 Evaluaciones Incluidas
 
-### [1. Análisis Postural Estático](./analisis-postural-estatico)
-**Evaluación fundamental** que documenta la postura natural del cliente en todos los planos anatómicos.
+### [Evaluación #1: Análisis Postural Estático](./analisis-postural-estatico.md)
+- **Objetivo:** Evaluar alineación corporal en posición estática
+- **Duración:** 15-20 minutos
+- **Nivel:** Básico - Fundamental
 
-- **Duración:** 10-15 minutos
-- **Fotografías:** 8 tomas específicas
-- **Planos:** Frontal, sagital y posterior
-- **Riesgo:** Mínimo
+### [Evaluación #2: Secuencia de Enderezamiento Vertebral](./secuencia-enderezamiento-vertebral.md)
+- **Objetivo:** Analizar secuencia de movimiento vertebral
+- **Duración:** 5-10 minutos
+- **Nivel:** Básico - Fundamental
 
-## 🔍 Interpretación General
+## 🔄 Protocolo de Aplicación
 
-### **Patrones Posturales Comunes**
+1. **Comenzar con análisis estático** para establecer línea base
+2. **Continuar con evaluación dinámica** para analizar movimiento
+3. **Documentar hallazgos** y correlaciones entre ambas evaluaciones
+4. **Integrar resultados** para comprensión integral de función postural
 
-#### **Síndrome Cruzado Superior**
-- Cabeza adelantada
-- Hombros protruídos  
-- Cifosis dorsal aumentada
+## ⚠️ Consideraciones Generales
 
-#### **Síndrome Cruzado Inferior**
-- Hiperlordosis lumbar
-- Anteversión pélvica
-- Compensaciones en extremidades inferiores
-
-#### **Escoliosis Funcional**
-- Desviación lateral de columna
-- Asimetría muscular
-- Patrones compensatorios
-
-## 📊 Integración con Otras Evaluaciones
-
-Los hallazgos posturales influyen directamente en:
-- **Evaluaciones de movilidad:** Limitaciones articulares
-- **Evaluaciones de fuerza:** Desequilibrios musculares  
-- **Evaluaciones funcionales:** Patrones de movimiento
+- **Ambiente relajado** para postura natural
+- **Vestimenta apropiada** según protocolo EPN®
+- **Observación detallada** desde múltiples ángulos
+- **Documentación fotográfica** sistemática
 
 ---
 
-**Las evaluaciones posturales proporcionan la base fundamental para comprender el estado funcional del cliente y planificar intervenciones apropiadas.**
+*Las evaluaciones posturales son la base fundamental del sistema EPN® y deben realizarse con especial atención al detalle.*
