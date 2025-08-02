@@ -28,6 +28,12 @@ Esta sección incluye todas las evaluaciones destinadas a medir la flexibilidad,
 ### [🐱 Lomos de Gato](./lomos-de-gato)
 **Evaluación #19** - Movilidad segmentaria de columna vertebral
 
+### [🪷 Posición de Loto Avanzada](./posicion-loto-avanzada)
+**Evaluación #22** - Flexibilidad avanzada de cadera y loto completo
+
+### [🦵 Estiramiento de Pantorrillas Avanzado](./estiramiento-pantorrillas-avanzado)
+**Evaluación #23** - Flexibilidad diferenciada de gastrocnemio y sóleo
+
 ## Características de las Evaluaciones de Movilidad
 
 - **Objetivo:** Medir rangos de movimiento y flexibilidad
@@ -37,6 +43,6 @@ Esta sección incluye todas las evaluaciones destinadas a medir la flexibilidad,
 
 ## Categorías de Movilidad Evaluadas
 
-- **Flexibilidad de Cadera:** Evaluaciones #13, #16, #17
+- **Flexibilidad de Cadera:** Evaluaciones #13, #16, #17, #22
 - **Flexibilidad de Columna:** Evaluaciones #3, #18, #19
-- **Flexibilidad de Extremidades:** Evaluaciones #14, #15
+- **Flexibilidad de Extremidades:** Evaluaciones #14, #15, #23

@@ -1,58 +1,34 @@
----
-sidebar_position: 4
----
-
 # Evaluaciones Funcionales
 
-Evaluaciones que analizan patrones de movimiento fundamentales y capacidades funcionales integradas.
+Esta sección incluye las evaluaciones destinadas a analizar movimientos funcionales complejos y patrones de movimiento integrados.
 
-## 🎯 Objetivo de las Evaluaciones Funcionales
+## Evaluaciones Incluidas
 
-Las evaluaciones funcionales tienen como propósito:
+### [🏋️‍♀️ Sentadilla Profunda](./sentadilla-profunda)
+**Evaluación #5** - Movilidad y estabilidad en sentadilla completa
 
-- **Analizar patrones** de movimiento fundamentales
-- **Evaluar integración** de múltiples sistemas
-- **Identificar disfunciones** en movimientos básicos
-- **Documentar capacidades** de transición y control
-- **Establecer bases** para programas de movimiento funcional
+### [🔄 Secuencia de Sentadilla Lateral](./secuencia-sentadilla-lateral)
+**Evaluación #6** - Movimiento dinámico y control lateral
 
-## 📋 Evaluaciones Incluidas
+### [🚶‍♂️ Desplantes](./desplantes)
+**Evaluación #7** - Estabilidad y fuerza en patrón de marcha
 
-### [Evaluación #5: Sentadilla Profunda](./sentadilla-profunda.md)
-- **Objetivo:** Evaluar movilidad tri-articular y patrones básicos
-- **Duración:** 5-7 minutos
-- **Nivel:** Básico - Fundamental
+### [⚖️ Test de Equilibrio en una Pierna](./equilibrio-una-pierna)
+**Evaluación #8** - Control postural y estabilidad unipodal
 
-### [Evaluación #6: Secuencia de Sentadilla Lateral](./secuencia-sentadilla-lateral.md)
-- **Objetivo:** Evaluar control motor dinámico y coordinación
-- **Duración:** 8-12 minutos
-- **Nivel:** Intermedio - Requiere coordinación
+### [🔄 Rotación de Cadera Específica](./rotacion-cadera-especifica)
+**Evaluación #24** - Movilidad rotacional de cadera en posición funcional
 
-### [Evaluación #7: Desplantes](./desplantes.md)
-- **Objetivo:** Evaluar estabilidad unilateral y equilibrio dinámico
-- **Duración:** 10-15 minutos
-- **Nivel:** Intermedio - Requiere equilibrio y coordinación
+## Características de las Evaluaciones Funcionales
 
-### [Evaluación #8: Test de Equilibrio en una Pierna](./equilibrio-una-pierna.md)
-- **Objetivo:** Evaluar equilibrio unilateral y control postural
-- **Duración:** 8-12 minutos
-- **Nivel:** Básico a Intermedio
+- **Objetivo:** Analizar patrones de movimiento integrados
+- **Metodología:** Movimientos dinámicos y posturas funcionales
+- **Seguridad:** Control de calidad de movimiento
+- **Análisis:** Evaluación de compensaciones y eficiencia motriz
 
-## 🔄 Protocolo de Aplicación
+## Categorías Funcionales Evaluadas
 
-1. **Evaluación progresiva:** Desde estático hacia dinámico
-2. **Observación integral:** Análisis de múltiples componentes
-3. **Adaptaciones:** Modificar según limitaciones identificadas
-4. **Integración:** Correlacionar con otras evaluaciones
-5. **Funcionalidad:** Enfoque en aplicación real del movimiento
-
-## ⚠️ Consideraciones Generales
-
-- **Progresión apropiada** en complejidad de evaluaciones
-- **Adaptación individual** según capacidades
-- **Observación detallada** de compensaciones
-- **Correlación** con actividades de vida diaria
-
----
-
-*Las evaluaciones funcionales son fundamentales para comprender cómo se integran las diferentes capacidades en movimientos reales y funcionales.*
+- **Patrones de Sentadilla:** Evaluaciones #5, #6
+- **Patrones de Marcha:** Evaluación #7
+- **Control Postural:** Evaluación #8
+- **Movilidad Articular Funcional:** Evaluación #24
