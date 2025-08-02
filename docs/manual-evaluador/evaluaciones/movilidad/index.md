@@ -25,6 +25,9 @@ Esta sección incluye todas las evaluaciones destinadas a medir la flexibilidad,
 ### [🌀 Rotación Espinal Acostado](./rotacion-espinal-acostado)
 **Evaluación #18** - Movilidad rotacional de columna vertebral
 
+### [🐱 Lomos de Gato](./lomos-de-gato)
+**Evaluación #19** - Movilidad segmentaria de columna vertebral
+
 ## Características de las Evaluaciones de Movilidad
 
 - **Objetivo:** Medir rangos de movimiento y flexibilidad
@@ -35,5 +38,5 @@ Esta sección incluye todas las evaluaciones destinadas a medir la flexibilidad,
 ## Categorías de Movilidad Evaluadas
 
 - **Flexibilidad de Cadera:** Evaluaciones #13, #16, #17
-- **Flexibilidad de Columna:** Evaluaciones #3, #18
+- **Flexibilidad de Columna:** Evaluaciones #3, #18, #19
 - **Flexibilidad de Extremidades:** Evaluaciones #14, #15

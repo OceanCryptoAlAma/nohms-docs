@@ -3,7 +3,7 @@
 Bienvenido al sistema de Evaluaciones Psicokinéticas NOHMS® (EPN®). Esta sección contiene todas las evaluaciones organizadas por categorías funcionales.
 
 ## 📊 Estado Actual de Migración
-**18 de 30+ evaluaciones completadas**
+**21 de 30+ evaluaciones completadas**
 
 ## 🗂️ Categorías de Evaluaciones
 
@@ -13,11 +13,11 @@ Análisis de alineación y patrones posturales
 
 ### [🤸‍♂️ Evaluaciones de Movilidad](./movilidad/)
 Medición de flexibilidad y rangos de movimiento
-- **7 evaluaciones disponibles**
+- **8 evaluaciones disponibles**
 
 ### [💪 Evaluaciones de Fuerza](./fuerza/)
 Evaluación de capacidad de fuerza y resistencia
-- **5 evaluaciones disponibles**
+- **7 evaluaciones disponibles**
 
 ### [⚖️ Evaluaciones Funcionales](./funcional/)
 Análisis de movimientos funcionales complejos
@@ -45,6 +45,9 @@ Análisis de movimientos funcionales complejos
 | 16 | Posición de Loto/Cruzado | Movilidad | ✅ |
 | 17 | Piernas Abiertas y Estiradas | Movilidad | ✅ |
 | 18 | Rotación Espinal Acostado | Movilidad | ✅ |
+| 19 | Lomos de Gato | Movilidad | ✅ |
+| 20 | Extensión de Brazos (Tríceps Doble) | Fuerza | ✅ |
+| 21 | Brazos en Cruz (Boca Abajo) | Fuerza | ✅ |
 
 ## 🎯 Principios de las Evaluaciones EPN®
 

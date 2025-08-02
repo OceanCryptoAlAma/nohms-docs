@@ -1,65 +1,39 @@
----
-sidebar_position: 3
----
-
 # Evaluaciones de Fuerza
 
-Evaluaciones específicas para analizar capacidades de fuerza funcional, resistencia y estabilidad bajo carga.
+Esta sección incluye todas las evaluaciones destinadas a medir la capacidad de fuerza, resistencia muscular y control motor.
 
-## 🎯 Objetivo de las Evaluaciones de Fuerza
+## Evaluaciones Incluidas
 
-Las evaluaciones de fuerza tienen como propósito:
+### [🏋️‍♂️ Test de Suspensión](./test-suspension)
+**Evaluación #4** - Fuerza de agarre y suspensión corporal
 
-- **Analizar capacidades** de sustentación y resistencia
-- **Evaluar fuerza funcional** en patrones de movimiento real
-- **Identificar debilidades** específicas en grupos musculares
-- **Documentar asimetrías** en capacidades de fuerza
-- **Establecer líneas base** para programas de fortalecimiento
+### [🛡️ Puente Frontal (Plancha)](./puente-frontal)
+**Evaluación #9** - Fuerza de core y estabilidad corporal
 
-## 📋 Evaluaciones Incluidas
+### [📐 Test de Inclinación 90° (Escuadra)](./test-inclinacion-escuadra)
+**Evaluación #10** - Fuerza isométrica en flexión de tronco
 
-### [Evaluación #4: Test de Suspensión](./test-suspension.md)
-- **Objetivo:** Evaluar fuerza de agarre y estabilidad escapular
-- **Duración:** 5-8 minutos
-- **Nivel:** Intermedio - Requiere fuerza básica
+### [💪 Extensión de Brazos (Boca Abajo)](./extension-brazos-boca-abajo)
+**Evaluación #11** - Fuerza de tríceps y músculos posteriores
 
-### [Evaluación #9: Puente Frontal (Plancha)](./puente-frontal.md)
-- **Objetivo:** Evaluar fuerza del core y estabilidad central
-- **Duración:** 5-8 minutos
-- **Nivel:** Intermedio - Requiere fuerza del core
+### [✋ Brazos en Cruz](./brazos-en-cruz)
+**Evaluación #12** - Fuerza de músculos posteriores del hombro
 
-### [Evaluación #10: Test de Inclinación 90° (Escuadra)](./test-inclinacion-escuadra.md)
-- **Objetivo:** Evaluar fuerza isométrica y flexibilidad integrada
-- **Duración:** 8-12 minutos
-- **Nivel:** Intermedio a Avanzado
+### [🔥 Extensión de Brazos (Tríceps Doble)](./extension-brazos-triceps-doble)
+**Evaluación #20** - Fuerza de tríceps y flexión de hombros
 
-### [Evaluación #11: Extensión de Brazos (Boca Abajo)](./extension-brazos-boca-abajo.md)
-- **Objetivo:** Evaluar fuerza y movilidad de hombros
-- **Duración:** 6-10 minutos
-- **Nivel:** Intermedio
+### [🕊️ Brazos en Cruz (Boca Abajo)](./brazos-cruz-boca-abajo)
+**Evaluación #21** - Fuerza de músculos posteriores contra gravedad
 
-### [Evaluación #12: Brazos en Cruz](./brazos-en-cruz.md)
-- **Objetivo:** Evaluar resistencia escapular en abducción horizontal
-- **Duración:** 5-8 minutos
-- **Nivel:** Intermedio a Avanzado
+## Características de las Evaluaciones de Fuerza
 
-## 🔄 Protocolo de Aplicación
+- **Objetivo:** Medir capacidad de fuerza y resistencia muscular
+- **Metodología:** Contracciones isométricas y mantención de posiciones
+- **Seguridad:** Progresión gradual respetando límites individuales
+- **Análisis:** Evaluación de tiempo de mantención y calidad de ejecución
 
-1. **Verificación previa:** Confirmar ausencia de lesiones
-2. **Calentamiento:** Movilización apropiada antes de la evaluación
-3. **Progresión:** Desde evaluaciones básicas hacia avanzadas
-4. **Seguridad:** Supervisión estrecha durante ejecución
-5. **Adaptaciones:** Modificar según capacidades individuales
-6. **Documentación:** Registrar capacidades y limitaciones
+## Categorías de Fuerza Evaluadas
 
-## ⚠️ Consideraciones Generales
-
-- **Seguridad primero:** Detener ante cualquier riesgo
-- **Supervisión constante** durante evaluaciones de fuerza
-- **Adaptaciones necesarias** según población
-- **Registro detallado** de capacidades y limitaciones
-- **Progresión apropiada** en dificultad de evaluaciones
-
----
-
-*Las evaluaciones de fuerza requieren especial atención a la seguridad y deben adaptarse según las capacidades individuales de cada cliente.*
+- **Fuerza de Tren Superior:** Evaluaciones #4, #11, #12, #20, #21
+- **Fuerza de Core:** Evaluaciones #9, #10
+- **Fuerza Funcional:** Todas las evaluaciones integradas
