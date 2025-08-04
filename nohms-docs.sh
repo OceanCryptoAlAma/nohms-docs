@@ -41,6 +41,7 @@ show_help() {
     echo "  vercel        - Comandos de Vercel"
     echo "  git           - Comandos Git útiles"
     echo "  help          - Mostrar esta ayuda"
+    echo "  update        - Update de GitHub"
     echo ""
     echo "Ejemplos:"
     echo "  ./nohms-docs.sh setup"
