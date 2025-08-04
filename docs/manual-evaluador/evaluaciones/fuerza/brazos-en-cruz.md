@@ -36,16 +36,16 @@ sidebar_position: 12
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento**
-> *"Vas a acostarte boca abajo y elevar tus brazos hacia los lados en posición de cruz, manteniéndolos bien arriba. Es importante que tu pecho y cabeza permanezcan apoyados en el suelo."*
+&gt; *"Vas a acostarte boca abajo y elevar tus brazos hacia los lados en posición de cruz, manteniéndolos bien arriba. Es importante que tu pecho y cabeza permanezcan apoyados en el suelo."*
 
 #### **Fase 2: Ejecución**
-> *"Eleva tus brazos lateralmente lo más alto que puedas y mantén esa posición de cruz por 8 segundos. Siente cómo trabajan los músculos de tu espalda y hombros."*
+&gt; *"Eleva tus brazos lateralmente lo más alto que puedas y mantén esa posición de cruz por 8 segundos. Siente cómo trabajan los músculos de tu espalda y hombros."*
 
 #### **Fase 3: Control y Mantenimiento**
-> *"Es fundamental que mantengas los brazos bien elevados y paralelos al suelo. Si sientes fatiga, puedes bajar los brazos, pero trata de mantener la posición el mayor tiempo posible."*
+&gt; *"Es fundamental que mantengas los brazos bien elevados y paralelos al suelo. Si sientes fatiga, puedes bajar los brazos, pero trata de mantener la posición el mayor tiempo posible."*
 
 #### **Fase 4: Seguridad**
-> *"Si experimentas dolor en los hombros o cuello, detén el ejercicio inmediatamente. La seguridad es más importante que el tiempo de sostén."*
+&gt; *"Si experimentas dolor en los hombros o cuello, detén el ejercicio inmediatamente. La seguridad es más importante que el tiempo de sostén."*
 
 ## 📸 Secuencia Fotográfica Completa
 

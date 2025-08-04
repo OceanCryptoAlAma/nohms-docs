@@ -4,8 +4,8 @@ sidebar_position: 2
 
 # Manual del Evaluador EPN® - Nivel 1
 
-> **Evaluación Psicokinética NOHMS®**  
-> *Por Nicolás Ogues Carusso*
+&gt; **Evaluación Psicokinética NOHMS®**  
+&gt; *Por Nicolás Ogues Carusso*
 
 El Manual del Evaluador EPN® es la guía completa para la aplicación profesional del método clínico NOHMS®. Este manual contiene más de 30 evaluaciones especializadas para el análisis integral de la movilidad humana.
 

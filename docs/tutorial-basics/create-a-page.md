@@ -20,10 +20,10 @@ import Layout from '@theme/Layout';
 
 export default function MyReactPage() {
   return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
+    &lt;Layout&gt;
+      &lt;h1&gt;My React page&lt;/h1&gt;
+      &lt;p&gt;This is a React page&lt;/p&gt;
+    &lt;/Layout&gt;
   );
 }
 ```

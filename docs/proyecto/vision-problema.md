@@ -50,7 +50,7 @@ NOHMS Digital busca transformar un método clínico probado en un sistema automa
 - 👨‍⚕️ **Supervisión humana** cuando se necesita
 - 🌐 **Accesible 24/7** desde cualquier lugar
 
-> **No es gimnasia ni deporte**: es un sistema para recuperar el cuerpo como herramienta de libertad y salud.
+&gt; **No es gimnasia ni deporte**: es un sistema para recuperar el cuerpo como herramienta de libertad y salud.
 
 ## Estrategia de Inicio: MVP Validante
 
@@ -138,4 +138,4 @@ Con el MVP validado, escalar a:
 
 ---
 
-> **Este enfoque permite validar técnica, clínica y comercialmente el sistema con bajo costo y alta capacidad de iteración.**
+&gt; **Este enfoque permite validar técnica, clínica y comercialmente el sistema con bajo costo y alta capacidad de iteración.**

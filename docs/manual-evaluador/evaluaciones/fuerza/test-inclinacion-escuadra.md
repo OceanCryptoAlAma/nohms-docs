@@ -36,13 +36,13 @@ sidebar_position: 10
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento Básico**
-> *"Vamos a evaluar tu capacidad de mantener una posición de inclinación a 90 grados. Vas a inclinar tu tronco hacia adelante manteniendo tu espalda recta y las piernas apenas flexionadas."*
+&gt; *"Vamos a evaluar tu capacidad de mantener una posición de inclinación a 90 grados. Vas a inclinar tu tronco hacia adelante manteniendo tu espalda recta y las piernas apenas flexionadas."*
 
 #### **Fase 2: Progresión de Dificultad**
-> *"Comenzaremos con las manos al pecho, luego con los brazos hacia adelante y arriba, y finalmente con los brazos a los laterales en cruz. Mantén siempre la espalda recta."*
+&gt; *"Comenzaremos con las manos al pecho, luego con los brazos hacia adelante y arriba, y finalmente con los brazos a los laterales en cruz. Mantén siempre la espalda recta."*
 
 #### **Fase 3: Control y Seguridad**
-> *"Es fundamental que mantengas tu rango máximo seguro. Si sientes dolor en la espalda baja o pérdida de control, regresa inmediatamente a la posición vertical."*
+&gt; *"Es fundamental que mantengas tu rango máximo seguro. Si sientes dolor en la espalda baja o pérdida de control, regresa inmediatamente a la posición vertical."*
 
 ## 📸 Secuencia Fotográfica Completa
 

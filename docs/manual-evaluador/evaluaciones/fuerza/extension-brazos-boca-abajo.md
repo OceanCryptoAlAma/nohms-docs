@@ -36,16 +36,16 @@ sidebar_position: 11
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento**
-> *"Vas a acostarte boca abajo y realizar extensiones de brazos hacia arriba. Es importante que mantengas tu pecho y cabeza apoyados en el suelo durante todo el ejercicio."*
+&gt; *"Vas a acostarte boca abajo y realizar extensiones de brazos hacia arriba. Es importante que mantengas tu pecho y cabeza apoyados en el suelo durante todo el ejercicio."*
 
 #### **Fase 2: Primera Variante - Extensión Simple**
-> *"Desde la posición con brazos a los costados, vas a levantar los brazos hacia arriba lo más que puedas, manteniendo la extensión máxima por 8 segundos. El pecho debe permanecer apoyado."*
+&gt; *"Desde la posición con brazos a los costados, vas a levantar los brazos hacia arriba lo más que puedas, manteniendo la extensión máxima por 8 segundos. El pecho debe permanecer apoyado."*
 
 #### **Fase 3: Segunda Variante - Flexión de Hombros**
-> *"Ahora vas a llevar los brazos hacia adelante y arriba, manteniendo esa posición elevada por 8 segundos. Es un movimiento diferente pero igualmente importante."*
+&gt; *"Ahora vas a llevar los brazos hacia adelante y arriba, manteniendo esa posición elevada por 8 segundos. Es un movimiento diferente pero igualmente importante."*
 
 #### **Fase 4: Control y Seguridad**
-> *"Si sientes dolor en los hombros o cuello, detén el movimiento inmediatamente. El objetivo es llegar a tu rango máximo seguro."*
+&gt; *"Si sientes dolor en los hombros o cuello, detén el movimiento inmediatamente. El objetivo es llegar a tu rango máximo seguro."*
 
 ## 📸 Secuencia Fotográfica Completa
 

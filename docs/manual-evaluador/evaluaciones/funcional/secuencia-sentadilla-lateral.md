@@ -36,16 +36,16 @@ sidebar_position: 6
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento Inicial**
-> *"Vamos a partir desde la sentadilla profunda que acabas de realizar, con tu espalda lo más recta posible. Esta vez vas a subir muy lentamente y de forma controlada."*
+&gt; *"Vamos a partir desde la sentadilla profunda que acabas de realizar, con tu espalda lo más recta posible. Esta vez vas a subir muy lentamente y de forma controlada."*
 
 #### **Fase 2: Explicación del Movimiento**
-> *"Desde la sentadilla profunda, vas a ascender gradualmente manteniendo tu tronco/espalda lo más recto posible durante todo el movimiento. El ascenso debe ser lento y controlado."*
+&gt; *"Desde la sentadilla profunda, vas a ascender gradualmente manteniendo tu tronco/espalda lo más recto posible durante todo el movimiento. El ascenso debe ser lento y controlado."*
 
 #### **Fase 3: Ejecución Controlada**
-> *"Sube muy despacio, sintiendo cada parte del movimiento. Mantén siempre el control y la espalda recta. Si necesitas detenerte en algún momento, hazlo."*
+&gt; *"Sube muy despacio, sintiendo cada parte del movimiento. Mantén siempre el control y la espalda recta. Si necesitas detenerte en algún momento, hazlo."*
 
 #### **Fase 4: Seguridad**
-> *"Recuerda que es un movimiento lento y controlado. Si sientes fatiga excesiva o pérdida de control, detente y descansa."*
+&gt; *"Recuerda que es un movimiento lento y controlado. Si sientes fatiga excesiva o pérdida de control, detente y descansa."*
 
 ## 📸 Secuencia Fotográfica Completa
 

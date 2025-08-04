@@ -35,13 +35,13 @@ sidebar_position: 3
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento Inicial**
-> *"Siéntate en el suelo con las piernas estiradas y juntas hacia adelante. Trata de pegar sutilmente pierna con pierna sin mover tu pelvis. Inclínate levemente hacia atrás para encontrar una posición cómoda."*
+&gt; *"Siéntate en el suelo con las piernas estiradas y juntas hacia adelante. Trata de pegar sutilmente pierna con pierna sin mover tu pelvis. Inclínate levemente hacia atrás para encontrar una posición cómoda."*
 
 #### **Fase 2: Preparación de la Postura**
-> *"Mantén tu espalda lo más recta posible, con el pecho ligeramente hacia adelante. Simetriza tus pies, asegurándote de que las puntas estén exactamente iguales."*
+&gt; *"Mantén tu espalda lo más recta posible, con el pecho ligeramente hacia adelante. Simetriza tus pies, asegurándote de que las puntas estén exactamente iguales."*
 
 #### **Fase 3: Ejecución del Movimiento**
-> *"Desde esta posición erguida, vas a llevar tus manos hacia tus pies de forma lenta y controlada. Ve hasta tu rango máximo seguro, sin forzar ni causar dolor. Mantén la posición cuando llegues a tu límite."*
+&gt; *"Desde esta posición erguida, vas a llevar tus manos hacia tus pies de forma lenta y controlada. Ve hasta tu rango máximo seguro, sin forzar ni causar dolor. Mantén la posición cuando llegues a tu límite."*
 
 ## 📸 Secuencia Fotográfica Completa
 

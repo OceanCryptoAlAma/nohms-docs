@@ -36,13 +36,13 @@ sidebar_position: 7
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Desplante Frontal (Estilo "Salida de Carrera")**
-> *"Vamos a realizar desplantes hacia adelante. Vas a dar un paso grande hacia adelante, flexionando ambas rodillas hasta lograr una posición estable de 'salida de carrera'. Mantén esa posición estable por unos segundos."*
+&gt; *"Vamos a realizar desplantes hacia adelante. Vas a dar un paso grande hacia adelante, flexionando ambas rodillas hasta lograr una posición estable de 'salida de carrera'. Mantén esa posición estable por unos segundos."*
 
 #### **Fase 2: Desplante Lateral**
-> *"Ahora vamos a hacer desplantes laterales. Con los pies paralelos, vas a dar un paso amplio hacia un lado, flexionando esa pierna mientras mantienes la otra estirada. La espalda debe mantenerse lo más recta posible."*
+&gt; *"Ahora vamos a hacer desplantes laterales. Con los pies paralelos, vas a dar un paso amplio hacia un lado, flexionando esa pierna mientras mantienes la otra estirada. La espalda debe mantenerse lo más recta posible."*
 
 #### **Fase 3: Seguridad y Control**
-> *"En ambos tipos de desplante, es importante que mantengas siempre tu rango máximo seguro. Si sientes pérdida de equilibrio o incomodidad, regresa a la posición inicial."*
+&gt; *"En ambos tipos de desplante, es importante que mantengas siempre tu rango máximo seguro. Si sientes pérdida de equilibrio o incomodidad, regresa a la posición inicial."*
 
 ## 📸 Secuencia Fotográfica Completa
 

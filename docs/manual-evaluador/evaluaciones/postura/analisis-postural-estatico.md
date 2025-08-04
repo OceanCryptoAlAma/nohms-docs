@@ -26,7 +26,7 @@ sidebar_position: 1
 - **Brazos:** Relajados a los lados del cuerpo
 
 ### **Instrucciones al Cliente**
-> *"Vamos a tomar fotografías de tu postura natural. Por favor, mantente relajado/a y en tu posición más cómoda y natural. No hagas correcciones, queremos ver cómo te colocas normalmente cuando estás de pie."*
+&gt; *"Vamos a tomar fotografías de tu postura natural. Por favor, mantente relajado/a y en tu posición más cómoda y natural. No hagas correcciones, queremos ver cómo te colocas normalmente cuando estás de pie."*
 
 ## 📸 Secuencia Fotográfica Completa
 

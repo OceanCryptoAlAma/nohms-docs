@@ -36,16 +36,16 @@ sidebar_position: 9
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento**
-> *"Vamos a evaluar tu capacidad de mantener una posición de plancha o puente frontal. Colócate boca abajo y apóyate en tus antebrazos y dedos de los pies."*
+&gt; *"Vamos a evaluar tu capacidad de mantener una posición de plancha o puente frontal. Colócate boca abajo y apóyate en tus antebrazos y dedos de los pies."*
 
 #### **Fase 2: Alineación Corporal**
-> *"Mantén todo tu cuerpo alineado como una tabla, desde la cabeza hasta los talones. Tu espalda debe estar recta, sin elevar los glúteos ni dejar que la cadera se hunda."*
+&gt; *"Mantén todo tu cuerpo alineado como una tabla, desde la cabeza hasta los talones. Tu espalda debe estar recta, sin elevar los glúteos ni dejar que la cadera se hunda."*
 
 #### **Fase 3: Ejecución del Sostén**
-> *"Mantén esta posición el mayor tiempo posible, manteniendo siempre la alineación correcta. Es más importante la calidad de la posición que el tiempo que puedas sostenerla."*
+&gt; *"Mantén esta posición el mayor tiempo posible, manteniendo siempre la alineación correcta. Es más importante la calidad de la posición que el tiempo que puedas sostenerla."*
 
 #### **Fase 4: Finalización Segura**
-> *"Cuando sientas que no puedes mantener la posición correcta o que tu fuerza se agota, baja controladamente a la posición inicial."*
+&gt; *"Cuando sientas que no puedes mantener la posición correcta o que tu fuerza se agota, baja controladamente a la posición inicial."*
 
 ## 📸 Secuencia Fotográfica Completa
 

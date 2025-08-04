@@ -21,11 +21,11 @@ Content-Type: application/json
 ### Crear Evaluación
 ```http
 POST /api/evaluations
-Authorization: Bearer <token>
+Authorization: Bearer &lt;token&gt;
 Content-Type: multipart/form-data
 
 {
-  "video": <file>,
+  "video": &lt;file&gt;,
   "evaluation_type": "static_posture"
 }
 ```
@@ -33,7 +33,7 @@ Content-Type: multipart/form-data
 ### Obtener Resultados
 ```http
 GET /api/evaluations/{id}/results
-Authorization: Bearer <token>
+Authorization: Bearer &lt;token&gt;
 
 Response:
 {
@@ -52,7 +52,7 @@ Response:
 ### Generar Plan
 ```http
 POST /api/plans/generate
-Authorization: Bearer <token>
+Authorization: Bearer &lt;token&gt;
 
 {
   "evaluation_id": "eval_123",

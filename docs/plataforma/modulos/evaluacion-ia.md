@@ -20,6 +20,6 @@ sidebar_position: 1
 
 ## Precisión Esperada
 
-- Detección postural: >85%
+- Detección postural: &gt;85%
 - Rangos articulares: ±5°
-- Compensaciones: >80%
+- Compensaciones: &gt;80%

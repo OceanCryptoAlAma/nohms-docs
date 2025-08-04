@@ -36,16 +36,16 @@ sidebar_position: 8
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Equilibrio Estático**
-> *"Vamos a evaluar tu capacidad de equilibrio en una pierna. Levanta una pierna del suelo y mantente en equilibrio el mayor tiempo posible. Puedes usar tus brazos naturalmente para ayudarte a mantener el equilibrio."*
+&gt; *"Vamos a evaluar tu capacidad de equilibrio en una pierna. Levanta una pierna del suelo y mantente en equilibrio el mayor tiempo posible. Puedes usar tus brazos naturalmente para ayudarte a mantener el equilibrio."*
 
 #### **Fase 2: Equilibrio con Flexión Controlada**
-> *"Ahora, manteniendo el equilibrio en una pierna, vas a flexionar cuidadosa y lentamente la pierna de apoyo hasta tu rango máximo seguro, y luego volver a subir. Hazlo de forma controlada."*
+&gt; *"Ahora, manteniendo el equilibrio en una pierna, vas a flexionar cuidadosa y lentamente la pierna de apoyo hasta tu rango máximo seguro, y luego volver a subir. Hazlo de forma controlada."*
 
 #### **Fase 3: Evaluación Bilateral**
-> *"Vamos a realizar lo mismo con la otra pierna para comparar tus capacidades en ambos lados."*
+&gt; *"Vamos a realizar lo mismo con la otra pierna para comparar tus capacidades en ambos lados."*
 
 #### **Fase 4: Seguridad**
-> *"Es importante que te concentres en mantener el equilibrio de forma segura. Si sientes que vas a perder el equilibrio, simplemente apoya el pie en el suelo."*
+&gt; *"Es importante que te concentres en mantener el equilibrio de forma segura. Si sientes que vas a perder el equilibrio, simplemente apoya el pie en el suelo."*
 
 ## 📸 Secuencia Fotográfica Completa
 

@@ -35,13 +35,13 @@ sidebar_position: 2
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Preparación**
-> *"Vamos a evaluar cómo se mueve tu columna vertebral. Primero, quiero que flexiones tu columna hacia adelante, dejando caer tus brazos, manos y cabeza de forma completamente relajada."*
+&gt; *"Vamos a evaluar cómo se mueve tu columna vertebral. Primero, quiero que flexiones tu columna hacia adelante, dejando caer tus brazos, manos y cabeza de forma completamente relajada."*
 
 #### **Fase 2: Posición de Inicio**
-> *"Mantente en esa posición relajada, con las rodillas apenas flexionadas. Permanece así por unos segundos hasta que te dé la señal."*
+&gt; *"Mantente en esa posición relajada, con las rodillas apenas flexionadas. Permanece así por unos segundos hasta que te dé la señal."*
 
 #### **Fase 3: Secuencia de Enderezamiento**
-> *"Cuando escuches mi señal '1-2-3', vas a comenzar a enderezar tu columna muy lentamente, vértebra por vértebra, empezando desde abajo hacia arriba. Imagina que estás desenrollando tu espalda como si fuera una cuerda."*
+&gt; *"Cuando escuches mi señal '1-2-3', vas a comenzar a enderezar tu columna muy lentamente, vértebra por vértebra, empezando desde abajo hacia arriba. Imagina que estás desenrollando tu espalda como si fuera una cuerda."*
 
 ## 📸 Secuencia Fotográfica Completa
 

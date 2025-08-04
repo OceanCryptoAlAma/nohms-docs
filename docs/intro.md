@@ -74,7 +74,7 @@ Nuestro MVP se enfoca en validar:
 
 ## 🌟 Únete a la Revolución del Movimiento
 
-> **NOHMS.One** es la evolución digital del movimiento funcional. IA, cuerpo y comunidad para una salud duradera.
+&gt; **NOHMS.One** es la evolución digital del movimiento funcional. IA, cuerpo y comunidad para una salud duradera.
 
 **¿Listo para recuperar tu libertad de moverte?**
 

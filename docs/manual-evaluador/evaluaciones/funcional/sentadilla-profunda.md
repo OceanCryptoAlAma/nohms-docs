@@ -36,16 +36,16 @@ sidebar_position: 5
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento**
-> *"Vamos a evaluar tu capacidad para hacer una sentadilla profunda. Colócate de pie con los pies bastante separados, más ancho que tus hombros."*
+&gt; *"Vamos a evaluar tu capacidad para hacer una sentadilla profunda. Colócate de pie con los pies bastante separados, más ancho que tus hombros."*
 
 #### **Fase 2: Ejecución - Sentadilla con Espalda Recta**
-> *"Baja lentamente hacia una sentadilla lo más profunda que puedas, manteniendo tu espalda derecha y mirando al frente. Trata de mantener los talones apoyados en el suelo en lo posible."*
+&gt; *"Baja lentamente hacia una sentadilla lo más profunda que puedas, manteniendo tu espalda derecha y mirando al frente. Trata de mantener los talones apoyados en el suelo en lo posible."*
 
 #### **Fase 3: Ejecución - Sentadilla Relajada**
-> *"Ahora, desde la misma posición profunda, relaja tu espalda completamente y permite que se redondee naturalmente. Mantente lo más relajado posible."*
+&gt; *"Ahora, desde la misma posición profunda, relaja tu espalda completamente y permite que se redondee naturalmente. Mantente lo más relajado posible."*
 
 #### **Fase 4: Seguridad**
-> *"Recuerda siempre mantenerte en tu rango máximo seguro. Si sientes dolor o incomodidad, detente inmediatamente."*
+&gt; *"Recuerda siempre mantenerte en tu rango máximo seguro. Si sientes dolor o incomodidad, detente inmediatamente."*
 
 ## 📸 Secuencia Fotográfica Completa
 

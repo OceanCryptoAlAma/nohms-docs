@@ -42,13 +42,13 @@ sidebar_position: 4
 ### **Instrucciones Detalladas al Cliente**
 
 #### **Fase 1: Posicionamiento**
-> *"Vas a colgarte de la barra (o anillas) sosteniendo todo tu peso corporal con las manos. Si en algún momento sientes que no puedes mantener el agarre de forma segura, simplemente suéltate."*
+&gt; *"Vas a colgarte de la barra (o anillas) sosteniendo todo tu peso corporal con las manos. Si en algún momento sientes que no puedes mantener el agarre de forma segura, simplemente suéltate."*
 
 #### **Fase 2: Ejecución**
-> *"Agárrate firmemente y permite que tus pies se separen del suelo. Mantente colgado el tiempo que puedas de forma segura. No te preocupes por el tiempo, enfócate en mantener un agarre seguro."*
+&gt; *"Agárrate firmemente y permite que tus pies se separen del suelo. Mantente colgado el tiempo que puedas de forma segura. No te preocupes por el tiempo, enfócate en mantener un agarre seguro."*
 
 #### **Fase 3: Finalización**
-> *"Cuando sientas que tu agarre se debilita o que ya no puedes mantener la posición de forma segura, suéltate de manera controlada."*
+&gt; *"Cuando sientas que tu agarre se debilita o que ya no puedes mantener la posición de forma segura, suéltate de manera controlada."*
 
 ## 📸 Secuencia Fotográfica Completa
 
