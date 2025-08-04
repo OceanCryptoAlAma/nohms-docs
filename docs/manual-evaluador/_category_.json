@@ -1,8 +1,5 @@
 {
-  "label": "Manual del Evaluador",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Manual completo del Evaluador EPN® Nivel 1 con protocolos, guía fotográfica y evaluaciones específicas."
-  }
+  "label": "📚 Manual del Evaluador",
+  "position": 3,
+  "description": "Guía completa de las 31 evaluaciones funcionales del método NOHMS®"
 }
