@@ -105,15 +105,6 @@ const sidebars: SidebarsConfig = {
       label: 'Módulos del Sistema',
       items: [
         'plataforma/modulos/evaluacion-ia',
-        {
-          type: 'category',
-          label: 'IA',
-          items: [
-            'ia/index',
-            'ia/modelo-entrenamiento',
-            'ia/proteccion-datos-usuarios',
-          ],
-        },
         'plataforma/modulos/generador-planes',
         'plataforma/modulos/coaching-hibrido',
         'plataforma/modulos/chatbot-rag',
@@ -121,6 +112,15 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'plataforma/mvp',
+    {
+      type: 'category',
+      label: 'IA',
+      items: [
+        'ia/index',
+        'ia/modelo-entrenamiento',
+        'ia/proteccion-datos-usuarios',
+      ],
+    },
     {
       type: 'category',
       label: 'Legal',
