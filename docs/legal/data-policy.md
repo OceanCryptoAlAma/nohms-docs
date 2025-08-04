@@ -1,7 +1,7 @@
 ---
 id: data-policy
 title: Política de Protección de Datos
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Política de Protección de Datos de NOHMS.One
@@ -33,35 +33,26 @@ En **NOHMS.One**, la privacidad y la protección de los datos personales de nues
 ## 3. Tipos de Datos que Recolectamos
 
 ### **📋 a) Datos Personales (Base Segura Separada)**
-```
-Información almacenada:
-├── Nombre completo
-├── Correo electrónico  
-├── Código interno de usuario (hash criptográfico)
-├── Consentimientos otorgados y fechas
-├── Preferencias de privacidad
-└── Logs de acceso y modificaciones
-```
+- Nombre completo
+- Correo electrónico  
+- Código interno de usuario (hash criptográfico)
+- Consentimientos otorgados y fechas
+- Preferencias de privacidad
+- Logs de acceso y modificaciones
 
 ### **🤖 b) Datos Técnicos/Biométricos (Sin Identificación)**
-```
-Información procesada:
-├── Keypoints corporales (coordenadas x/y/z)
-├── Resultados de evaluaciones funcionales
-├── Etiquetas automáticas (ej. "compensación detectada")
-├── Plan de entrenamiento asignado
-├── Historial de evolución y reevaluaciones
-└── Métricas de progreso longitudinal
-```
+- Keypoints corporales (coordenadas x/y/z)
+- Resultados de evaluaciones funcionales
+- Etiquetas automáticas (ej. "compensación detectada")
+- Plan de entrenamiento asignado
+- Historial de evolución y reevaluaciones
+- Métricas de progreso longitudinal
 
 ### **🎥 c) Datos Opcionales (Consentimiento Adicional)**
-```
-Solo con autorización explícita:
-├── Videos originales (eliminados post-procesamiento)
-├── Imágenes con rostro visible
-├── Grabaciones de voz o audio
-└── Participación en estudios de investigación
-```
+- Videos originales (eliminados post-procesamiento)
+- Imágenes con rostro visible
+- Grabaciones de voz o audio
+- Participación en estudios de investigación
 
 ---
 
@@ -78,13 +69,6 @@ Solo con autorización explícita:
 - **Auditorías Regulares**: Pentesting trimestral y auditorías de compliance
 - **Monitoreo Activo**: Detección de anomalías 24/7
 - **Backups Encriptados**: Copias de seguridad con encriptación independiente
-
-### **📊 Métricas de Privacidad**
-| Control | Frecuencia | Objetivo |
-|---------|------------|----------|
-| Intentos de reidentificación | Diario | 0% éxito |
-| Tiempo de anonimización | Tiempo real | &lt;5 segundos |
-| Ejercicio de derechos | Continuo | &lt;48h respuesta |
 
 ---
 
@@ -137,35 +121,14 @@ En cualquier momento, el usuario puede ejercer los siguientes derechos:
 - Cancelar participación en estudios de investigación
 
 ### **⚙️ Cómo Ejercer tus Derechos**
-```
-📧 Email: privacidad@nohms.one
-🌐 Portal: app.nohms.one/privacy-dashboard
-📱 In-app: Configuración > Privacidad y Datos
+📧 Email: privacidad@nohms.one  
+🌐 Portal: app.nohms.one/privacy-dashboard  
+📱 In-app: Configuración &gt; Privacidad y Datos  
 ⏱️ Tiempo de respuesta: Máximo 48 horas
-```
 
 ---
 
-## 7. Política de Retención de Datos
-
-### **⏰ Cronogramas de Retención**
-| Tipo de Dato | Período de Retención | Eliminación |
-|--------------|---------------------|-------------|
-| **Datos funcionales anónimos** | Indefinido | Por solicitud usuario |
-| **Datos personales identificables** | 24 meses inactividad | Automática |
-| **Videos originales** | Inmediato post-procesamiento | Automática |
-| **Keypoints corporales** | 2 años | Configurable por usuario |
-| **Sesiones de chat** | 12 meses | Automática |
-
-### **🔄 Proceso de Eliminación**
-1. **Eliminación Soft**: Marcado para borrado, datos inaccesibles
-2. **Eliminación Hard**: Borrado físico irreversible (30 días después)
-3. **Verificación**: Confirmación de eliminación completa
-4. **Certificado**: Documento de eliminación (si se solicita)
-
----
-
-## 8. Cumplimiento Legal Internacional
+## 7. Cumplimiento Legal Internacional
 
 Esta política cumple con los estándares internacionales más estrictos:
 
@@ -190,114 +153,21 @@ Esta política cumple con los estándares internacionales más estrictos:
 
 ---
 
-## 9. Transferencias Internacionales
-
-### **🌐 Ubicación de Servidores**
-- **Primarios**: Amazon Web Services (AWS) - Región US-East
-- **Backup**: Centros de datos certificados en EU (Frankfurt)
-- **CDN**: Red global con nodos en América, Europa y Asia
-
-### **🛡️ Protecciones para Transferencias**
-- **Cláusulas Contractuales Estándar** (SCCs) aprobadas por UE
-- **Adequacy Decisions** cuando estén disponibles
-- **Binding Corporate Rules** para proveedores enterprise
-- **Cifrado end-to-end** independiente de ubicación geográfica
-
----
-
-## 10. Menores de Edad
-
-### **👶 Política para Menores**
-- **Edad mínima**: 16 años (13 años con consentimiento parental en USA)
-- **Verificación**: Proceso de verificación de edad obligatorio
-- **Consentimiento parental**: Requerido para menores de 16 años
-- **Protecciones adicionales**: Restricciones especiales en procesamiento
-
-### **👨‍👩‍👧‍👦 Derechos de Padres/Tutores**
-- Acceso a datos del menor
-- Control de consentimientos otorgados
-- Derecho de eliminación prioritario
-- Notificaciones de actividad
-
----
-
-## 11. Brechas de Seguridad
-
-### **🚨 Protocolo de Respuesta**
-En caso de una brecha de seguridad que afecte datos personales:
-
-#### **Tiempo de Respuesta**
-- **72 horas**: Notificación a autoridades de protección de datos
-- **48 horas**: Comunicación a usuarios afectados (si hay alto riesgo)
-- **24 horas**: Activación del equipo de respuesta a incidentes
-
-#### **Información Proporcionada**
-- Naturaleza de la brecha y datos afectados
-- Medidas tomadas para contener el incidente
-- Recomendaciones para los usuarios afectados
-- Contacto para dudas y seguimiento
-
----
-
-## 12. Actualizaciones de la Política
-
-### **📅 Proceso de Actualización**
-- **Notificación previa**: 30 días antes de cambios significativos
-- **Resumen de cambios**: Documento comparativo disponible
-- **Nuevos consentimientos**: Solo si se requieren nuevos usos de datos
-- **Versionado**: Control de versiones con fechas específicas
-
-### **📢 Canales de Comunicación**
-- Email directo a usuarios registrados
-- Notificación in-app prominente
-- Publicación en sitio web oficial
-- Archivo histórico de versiones disponible
-
----
-
-## 13. Contacto y Soporte
+## 8. Contacto y Soporte
 
 ### **📬 Canales de Contacto**
-```
-🔐 Data Protection Officer (DPO):
-   📧 privacidad@nohms.one
-   📱 +598 XXXX-XXXX
-   
-💬 Soporte General:
-   📧 soporte@nohms.one
-   🌐 Chat en vivo: app.nohms.one/support
-   
-⚖️ Consultas Legales:
-   📧 legal@nohms.one
-   
-🔍 Reportes de Seguridad:
-   📧 security@nohms.one
-```
+🔐 **Data Protection Officer (DPO):**  
+📧 privacidad@nohms.one
 
-### **🏢 Información Corporativa**
-```
-NOHMS Digital S.A.
-📍 Dirección: [Dirección física en Uruguay]
-🆔 RUT: [Número de RUT]
-🌐 Sitio web: https://nohms.one
-📄 Registro: [Información de registro comercial]
-```
+💬 **Soporte General:**  
+📧 soporte@nohms.one  
+🌐 Chat en vivo: app.nohms.one/support
 
----
+⚖️ **Consultas Legales:**  
+📧 legal@nohms.one
 
-## 14. Autoridades de Supervisión
-
-### **🇺🇾 Uruguay**
-- **Unidad Reguladora y de Control de Datos Personales (URCDP)**
-- 🌐 https://www.gub.uy/unidad-reguladora-control-datos-personales/
-
-### **🇪🇺 Unión Europea**
-- **Autoridad de supervisión del país de residencia del usuario**
-- 🌐 https://edpb.europa.eu/about-edpb/about-edpb/members_en
-
-### **🇺🇸 Estados Unidos**
-- **Federal Trade Commission (FTC)**
-- 🌐 https://www.ftc.gov/
+🔍 **Reportes de Seguridad:**  
+📧 security@nohms.one
 
 ---
 
