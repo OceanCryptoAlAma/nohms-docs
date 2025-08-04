@@ -121,6 +121,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'plataforma/mvp',
+    'plataforma/validacion-pre-mvp',
     {
       type: 'category',
       label: 'Legal',
